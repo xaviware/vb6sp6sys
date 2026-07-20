@@ -1,0 +1,18 @@
+El Service Pack ("Service Pack") contiene versiones actualizadas de uno o más de los productos de software enumerados a continuación. Este documento servirá como anexo ("Anexo") del Contrato de licencia para el usuario final de Microsoft ("CLUF") que adquirió con la versión 6.0 o posterior de cualquiera de los productos de Microsoft enumerados a continuación. Excepto en lo dispuesto en este Anexo, el Service Pack se concede en licencia bajo los mismos términos y condiciones que se contienen en el CLUF. NOTA: ciertos componentes del Service Pack (un "Componente") pueden contener un contrato de licencia para el usuario final independiente (un "Contrato de componente"), que es posible que se proporcione sólo en inglés: al instalar, copiar o de otra forma utilizar el componente regido por el Contrato de componente, acepta quedar obligado por los términos de dicho Contrato de componente.
+
+Visual Studio
+Visual C++
+Visual Basic
+Visual SourceSafe
+
+1.	Si no acepta quedar obligado por los términos del CLUF y de este Anexo, no se le autoriza a utilizar este Service Pack.
+ 
+2.	El Service Pack puede contener ciertos archivos que se identifican en un archivo "redist.txt". La utilización de dichos archivos está sujeta a todos los términos y condiciones del CLUF que se relacionan con "Redistribuibles" (según se define en el CLUF). Si el archivo redist.txt no se incluye en este Service Pack, no tiene derechos de distribución de ninguna parte del Service Pack.
+
+3.	La Sección 1.1 del CLUF queda completamente eliminada y se reemplaza con la siguiente:
+
+1.1	Concesión general de licencia. Microsoft le concede a usted como individuo una licencia personal no exclusiva para crear y utilizar copias del PRODUCTO SOFTWARE con el propósito de diseñar, desarrollar y probar productos software. Puede instalar copias del PRODUCTO SOFTWARE en un número ilimitado de equipos, siempre que sea el único individuo que utiliza el PRODUCTO SOFTWARE. En el caso de las personas jurídicas, Microsoft les concede el derecho a designar a un individuo de su organización para que tenga derecho a utilizar el PRODUCTO SOFTWARE en la forma antes dispuesta.
+
+4.	Microsoft le otorga también un derecho no exclusivo a copiar y distribuir este Service Pack a cualquier usuario con licencia válida de cualquiera de los productos antes enumerados.
+
+NOTA: Los términos de una copia impresa del CLUF que pueda acompañar al Service Pack sustituyen y anulan los términos de todo CLUF en pantalla incluido con el Service Pack.

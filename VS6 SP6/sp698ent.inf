@@ -1,0 +1,1126 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Thu Mar 11 16:37:25 2004           **
+;**                                                                **
+;** Diamond Version: (32) 1.00.0602 (07/14/97)                     **
+;**                                                                **
+;*** BEGIN **********************************************************
+[Source Media Descriptions]
+; <disk number>, <disk label>, <file>, <path>
+ "1","Instalación de Visual Studio 6.0 Service Pack 6","Vs6sp61.cab","."
+ "2","Instalación de Visual Studio 6.0 Service Pack 6","Vs6sp62.cab","."
+ "3","Instalación de Visual Studio 6.0 Service Pack 6","Vs6sp63.cab","."
+ "4","Instalación de Visual Studio 6.0 Service Pack 6","Vs6sp64.cab","."
+
+[Default File Settings]
+"STF_BACKUP" = ""
+"STF_COPY" = "YES"
+"STF_DATE" = "2004-03-11"
+"STF_DECOMPRESS" = "CABINET"
+"STF_OVERWRITE" = "OLDER"
+"STF_READONLY" = ""
+"STF_ROOT" = "YES"
+"STF_SETTIME" = "YES"
+"STF_TIME" = "0"
+"STF_VITAL" = ""
+
+;************* INF File list *****************
+
+[SetupProdCah]
+
+[Setup]
+"eula_txt" = 1,eula.txt,,,,2004-02-19,!DECOMPRESS,,OLDER,,,,,,,2519,,,,,
+"readme_htm_11" = 1,ReadMe.htm,,,,2004-01-30,!DECOMPRESS,,OLDER,,,,,,,6981,,,,,
+
+[Remove ACME Help Files]
+"acmsetup_gid"= 1,acmsetup.gid,,,!COPY,,,,,,REMOVE,,,,,0,,,,,
+"acmsetup_fts"= 1,acmsetup.fts,,,!COPY,,,,,,REMOVE,,,,,0,,,,,
+"acmsetup_ftg"= 1,acmsetup.ftg,,,!COPY,,,,,,REMOVE,,,,,0,,,,,
+
+[Component Repository]
+"vcmagg_dll" = 1,Common\Tools\VCM\VCMAgg.dll,,,,2000-11-13,,1033,OLDER,,,,,,,82944,,,,6.1.0.313,
+"repvcm_dll" = 1,Common\Tools\VCM\RepVCM.dll,,,,2000-11-08,,1033,OLDER,,,,,,,606208,,,,6.1.0.313,
+
+[VB Oleaut Files]
+"oleaut32_dll" = 1,os\system\oleaut32.dll,,,,2000-04-12,,1033,OLDER,,,,,,,598288,SYSTEM,,,2.40.4275.1,
+"stdole2_tlb" = 1,os\system\stdole2.tlb,,,,1999-06-03,,1033,OLDER,,,,,,,17920,SYSTEM,,,2.40.4275.1,
+"olepro32_dll_2" = 1,os\system\olepro32.dll,,,,1999-03-08,,1033,OLDER,,,,,,,164112,SYSTEM,,,5.0.4275.1,
+"asycflt_dll" = 1,os\system\asycfilt.dll,,,,1999-03-08,,1033,OLDER,,,,,,,147728,SYSTEM,,,2.40.4275.1,
+
+[VB Runtime]
+"msvbvm50_dll" = 1,os\system\msvbvm60.dll,,,,2004-02-23,,1033,OLDER,,,,,,,1386496,SYSTEM,,,6.0.97.82,
+"vb6esp_dll" = 1,os\system\vb6es.dll,,,,2000-10-02,,3082,OLDER,,,,,,,119568,SYSTEM,,,6.0.89.88,
+
+[vc MSVCRT40 DLL]
+"msvcrt40_dll" = 1,os\system\msvcrt40.dll,,,,1999-06-01,,1033,OLDER,,,,,,,326656,SYSTEM,,,4.22.0.0,
+
+[MFC 40 Dll]
+"mfc40_dll_4" = 1,os\system\mfc40.dll,,,,1999-06-01,,1033,OLDER,,,,,,,924432,SYSTEM,,,4.1.0.6140,
+"mfc40u_dll" = 1,os\system\mfc40u.dll,,,,1999-06-01,,1033,OLDER,,,,,,,924432,SYSTEM,,,4.1.0.6140,
+
+[vc MFC Os Retail]
+"mfc42_dll" = 1,os\system\mfc42.dll,,,,2004-02-27,,1033,OLDER,,,,,,,1019959,SYSTEM,,,6.0.9782.0,
+
+[Sys Files - CRT Dlls]
+"msvcrt_dll" = 1,os\system\msvcrt.dll,,,,2004-02-17,,1033,OLDER,,,,,,,278581,SYSTEM,,,6.0.9782.0,
+
+[Sys Files - Regsrv32]
+"regsvr32_exe_3" = 1,regsvr32.exe,,,,2000-09-15,,1033,OLDER,,,,,,,37136,SYSTEM,,,5.0.1641.1,
+
+[VC MFC OS Unicode Retail]
+"mfc42u_dll" = 1,os\system\mfc42u.dll,,,,2004-02-27,,1033,OLDER,,,,,,,1015864,SYSTEM,,,6.0.9782.0,
+
+[(vsee) Analysis C/S Shared bridge]
+"vamts_dll" = 1,Common\Tools\VS-Ent98\Vanalyzr\VAProg\vamts.dll,,,,2000-04-12,,1033,OLDER,,,,,,,275776,,,,6.1.0.8391,
+
+[VB MSMASK32]
+"msmask32_ocx" = 1,os\system\msmask32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,167968,,,,6.0.84.18,
+"msmask32_dep" = 1,os\system\msmask32.dep,,,,2000-06-13,,,OLDER,,,,,,,2494,,,,,
+
+[VB STDFMT]
+"msstdfmt_dll" = 1,os\system\msstdfmt.dll,,,,2004-02-23,,1033,OLDER,,,,,,,119808,SYSTEM,,,6.1.97.82,
+"msstdfmt_dep" = 1,os\system\msstdfmt.dep,,,,2004-02-23,,,OLDER,,,,,,,2494,,,,,
+
+[VB PICCLP32]
+"picclp32_ocx" = 1,os\system\picclp32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,84512,,,,6.0.84.18,
+"picclp32_dep" = 1,os\system\picclp32.dep,,,,2000-06-13,,,OLDER,,,,,,,2494,,,,,
+
+[VB DBLIST32]
+"dblist32_ocx" = 1,os\system\dblist32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,215312,,,,6.1.97.82,
+"dblist32_dep" = 1,os\system\dblist32.dep,,,,2004-02-17,,,OLDER,,,,,,,2494,,,,,
+"dblist_srg" = 1,os\system\dblist.srg,,,,2000-06-13,,,OLDER,,,,,,,111,,,,,
+
+[VB RICHTX32]
+"richtx32_ocx" = 1,os\system\richtx32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,212240,,,,6.1.97.82,
+"richtx32_dep" = 1,os\system\richtx32.dep,,,,2004-02-17,,,OLDER,,,,,,,3008,,,,,
+
+[VB MSCHART]
+"mschart_ocx" = 1,os\system\mschrt20.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,1010720,,,,6.0.88.4,
+"mschart_dep" = 1,os\system\mschrt20.dep,,,,2000-06-13,,,OLDER,,,,,,,2492,,,,,
+
+[VB MSWINSCK]
+"mswinsck_ocx_1" = 1,os\system\mswinsck.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,124688,,,,6.1.97.82,
+"mswinsck_dep_1" = 1,os\system\mswinsck.dep,,,,2004-02-23,,,OLDER,,,,,,,2463,,,,,
+
+[VB MSINET]
+"msinet_ocx_1" = 1,os\system\msinet.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,132880,,,,6.1.97.82,
+"msinet_dep_1" = 1,os\system\msinet.dep,,,,2004-02-17,,,OLDER,,,,,,,2405,,,,,
+
+[VB MCI32]
+"mci32_ocx" = 1,os\system\mci32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,200224,,,,6.0.84.18,
+"mci32_dep" = 1,os\system\mci32.dep,,,,2004-02-23,,,OLDER,,,,,,,2394,,,,,
+
+[VB MSDATLST]
+"datalist_ocx" = 1,os\system\msdatlst.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,234016,,,,6.0.84.18,
+"datalist_dep" = 1,os\system\MSDatLst.dep,,,,2000-06-13,,,OLDER,,,,,,,2494,,,,,
+
+[VB DATAGRID]
+"datagrid_ocx" = 1,os\system\MSDatGrd.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,275216,,,,6.1.97.82,
+"msdatgrd_dep" = 1,os\system\msdatgrd.dep,,,,2004-02-17,,,OLDER,,,,,,,2514,,,,,
+
+[VB COMDLG32]
+"comdlg32_ocx" = 1,os\system\comdlg32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,152848,,,,6.1.97.82,
+"comdlg32_dep" = 1,os\system\comdlg32.dep,,,,2004-02-23,,,OLDER,,,,,,,2494,,,,,
+
+[VB COMCTL32]
+"mscomctl_ocx" = 1,os\system\mscomctl.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,1081616,,,,6.1.97.82,
+"mscomctl_dep" = 1,os\system\MSComCtl.dep,,,,2004-02-17,,,OLDER,,,,,,,2494,,,,,
+"comctl32_ocx_3" = 1,os\system\comctl32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,609824,,,,6.0.81.5,
+"comctl32_dep_2" = 1,os\system\comctl32.dep,,,,2000-06-13,,,OLDER,,,,,,,2493,,,,,
+
+[VB COMCT332]
+"comct332_ocx" = 1,os\system\comct332.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,416528,,,,6.7.0.9782,
+"comct332_dep" = 1,os\system\comct332.dep,,,,2004-02-26,,,OLDER,,,,,,,3026,,,,,
+
+[VB COMCT232]
+"mscomct2_ocx" = 1,os\system\mscomct2.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,662288,,,,6.1.97.82,
+"mscomct2_dep" = 1,os\system\MSComCt2.dep,,,,2004-02-17,,,OLDER,,,,,,,2494,,,,,
+
+[VB ADODC]
+"adodc_ocx" = 1,os\system\msadodc.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,131856,,,,6.1.97.82,
+"adodc_dep" = 1,os\system\msadodc.dep,,,,2004-02-23,,,OLDER,,,,,,,2502,,,,,
+
+[dag Jet]
+"msjet35_dll" = 1,os\system\msjet35.dll,,,,2000-06-13,,1033,OLDER,,,,,,,1046288,SYSTEM,,,3.51.2723.0,
+"msrepl35_dll" = 1,os\system\msrepl35.dll,,,,2000-06-13,,1033,OLDER,,,,,,,415504,SYSTEM,,,3.51.2404.0,
+"msjt4jlt_dll" = 1,os\system\msjt4jlt.dll,,,,2000-06-13,,1033,OLDER,,,,,,,1234704,SYSTEM,,,3.52.2723.0,
+
+[VBA Additional Files]
+"expsrv_dll" = 1,os\system\expsrv.dll,,,,2004-02-25,,0,OLDER,,,,,,,380688,SYSTEM,,,6.1.0.9774,
+
+[VC - SQL debugger]
+"eesql_dll" = 1,common\msdev98\bin\eesql.dll,,,,2000-09-09,,1033,OLDER,,,,,,,36939,,,,6.0.8982.0,
+
+[VC - ATL source]
+"atl_cpp" = 1,vc98\atl\src\atl.cpp,,,,2004-01-28,,,OLDER,,,,,,,3682,,,,,
+"atl_def" = 1,vc98\atl\src\atl.def,,,,2000-06-13,,,OLDER,,,,,,,1761,,,,,
+"atl_idl" = 1,vc98\atl\src\atl.idl,,,,2000-06-13,,,OLDER,,,,,,,507,,,,,
+"atl_mak" = 1,vc98\atl\src\atl.mak,,,,2004-02-17,,,OLDER,,,,,,,15991,,,,,
+"atl_rc" = 1,vc98\atl\src\atl.rc,,,,2000-06-13,,,OLDER,,,,,,,2081,,,,,
+"atlps_def" = 1,vc98\atl\src\atlps.def,,,,2000-06-13,,,OLDER,,,,,,,203,,,,,
+"regobj_cpp" = 1,vc98\atl\src\regobj.cpp,,,,2000-06-13,,,OLDER,,,,,,,159,,,,,
+"regobj_rgs" = 1,vc98\atl\src\regobj.rgs,,,,2000-06-13,,,OLDER,,,,,,,335,,,,,
+"resource_h" = 1,vc98\atl\src\resource.h,,,,2000-06-13,,,OLDER,,,,,,,1545,,,,,
+"atl_rc2" = 1,vc98\atl\src\atl.rc2,,,,2000-06-13,,,OLDER,,,,,,,1207,,,,,
+
+[(vsee) Repository Shared Files]
+"repodbc_dll" = 1,os\msapps\repostry\repodbc.dll,,,,2000-06-13,,1033,OLDER,,,,,,,860233,,,,6.10.9064.4,
+"reprc_dll" = 1,os\msapps\repostry\reprc.dll,,,,2000-06-13,,3082,OLDER,,,,,,,22288,,,,6.10.8253.0,
+"insrepim_dll" = 1,os\msapps\repostry\insrepim.dll,,,,2000-06-13,,1033,OLDER,,,,,,,44816,,,,6.10.8253.0,
+
+[ATL]
+"atl_dll_2" = 1,os\system\atl.dll,,,,2004-02-27,,1033,OLDER,,,,,,,74810,SYSTEM,,,3.0.9782.0,
+"atl_dll_1" = 1,os\system\ansi\atl.dll,,,,2004-02-27,,1033,OLDER,,,,,,,90169,SYSTEM,,,3.0.9782.0,
+
+[Active Scripting SCRRUN]
+"scrrun_dll" = 1,os\system\scrrun.dll,,,,2000-07-15,,1033,OLDER,,,,,,,151824,SYSTEM,,,5.0.0.3715,
+"scrrun_dll_esp" = 1,os\system\scrrnes.dll,,,,2000-07-15,,3082,OLDER,,,,,,,16984,,,,5.0.0.3715,
+
+[Script Engine files]
+"dispex_dll" = 1,os\system\dispex.dll,,,,2000-07-15,,1033,OLDER,,,,,,,26896,SYSTEM,,,5.0.0.3715,
+"jscript_dll" = 1,os\system\jscript.dll,,,,2003-01-14,,1033,OLDER,,,,,,,487481,SYSTEM,,,5.1.0.8513,
+"vbscript_dll" = 1,os\system\vbscript.dll,,,,2003-01-14,,1033,OLDER,,,,,,,438330,SYSTEM,,,5.1.0.8513,
+"jscript_dll_esp" = 1,os\system\jses.dll,,,,2000-07-15,,3082,OLDER,,,,,,,19032,,,,5.0.0.3715,
+"vbscript_dll_esp" = 1,os\system\vbses.dll,,,,2000-07-15,,3082,OLDER,,,,,,,18520,,,,5.0.0.3715,
+
+[Scriptoids]
+"scrobj_dll_1" = 1,os\system\scrobj.dll,,,,2000-07-15,,1033,OLDER,,,,,,,165824,,,,1.0.0.3715,
+"scobj_dll_esp" = 1,os\system\scoes.dll,,,,2000-07-15,,3082,OLDER,,,,,,,15488,,,,1.0.0.3715,
+
+[Davinci Wrappers]
+"mdt2fw95_dll" = 1,MSDesign\mdt2fw95.dll,,,,2004-02-17,,1033,OLDER,,,,,,,61712,,,,2.0.0.9782,
+
+[Davinci Query]
+"mdt2qd_dll" = 1,MSDesign\mdt2qd.dll,,,,2004-02-17,,1033,OLDER,,,,,,,1253136,,,,2.0.0.9782,
+"mdt2qdui_dll_esp" = 1,msdesign\resource\3082\mdt2qdui.dll,,,,2000-11-07,,3082,OLDER,,,,,,,59664,,,,2.0.0.8958,
+
+[Davinci DDS GRID]
+"mdt2g_dll" = 1,MSDesign\mdt2g.dll,,,,2002-05-22,,1033,OLDER,,,,,,,589824,,,,2.0.0.9586,
+"mdt2gkor_dll" = 1,MSDesign\mdt2gkor.dll,,,,2000-06-13,,1033,OLDER,,,,,,,503808,,,,2.0.0.8084,
+
+[Davinci Framework]
+"mdt2fw_dll" = 1,MSDesign\mdt2fw.dll,,,,2004-02-17,,1033,OLDER,,,,,,,484464,,,,2.0.0.9782,
+"mdt2fwui_dll_esp" = 1,msdesign\resource\3082\mdt2fwui.dll,,,,2000-11-30,,3082,OLDER,,,,,,,77072,,,,2.0.0.8958,
+
+[Davinci DDS]
+"mdt2dd_dll" = 1,MSDesign\mdt2dd.dll,,,,2004-02-17,,1033,OLDER,,,,,,,431888,,,,2.0.0.9782,
+"mdt2ddui_dll_esp" = 1,msdesign\resource\3082\mdt2ddui.dll,,,,2000-11-07,,3082,OLDER,,,,,,,14096,,,,2.0.0.8958,
+"mdt2gddo_dll" = 1,MSDesign\mdt2gddo.dll,,,,2002-12-19,,1033,OLDER,,,,,,,47264,,,,2.0.0.9586,
+"mdt2gddr_dll" = 1,MSDesign\mdt2gddr.dll,,,,2004-02-17,,1033,OLDER,,,,,,,106256,,,,2.0.0.9782,
+
+[Davinci DDS FORMS]
+"mdt2df_dll" = 1,MSDesign\mdt2df.dll,,,,2002-05-22,,1033,OLDER,,,,,,,608528,,,,2.0.0.9586,
+"mdt2dfui_dll" = 1,MSDesign\mdt2dfx.dll,,,,2002-05-22,,1033,OLDER,,,,,,,11536,,,,2.0.0.9586,
+
+[Davinci Schema]
+"mdt2db_dll" = 1,MSDesign\mdt2db.dll,,,,2004-02-17,,1033,OLDER,,,,,,,637200,,,,2.0.0.9782,
+"mdt2dbui_dll_esp" = 1,msdesign\resource\3082\mdt2dbui.dll,,,,2000-11-07,,3082,OLDER,,,,,,,64784,,,,2.0.0.8958,
+
+[Davinci Data Tool Specific]
+"mdt2dbns_dll" = 1,MSDesign\mdt2dbns.dll,,,,2004-02-17,,1033,OLDER,,,,,,,408848,,,,2.0.0.9782,
+"mdt2fref_dll" = 1,MSDesign\mdt2fref.dll,,,,2004-02-17,,1033,OLDER,,,,,,,28432,,,,2.0.0.9782,
+
+[VB MSFLXGRD]
+"msflxgrd_ocx" = 1,os\system\msflxgrd.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,260880,,,,6.1.97.82,
+"msflxgrd_dep" = 1,os\system\msflxgrd.dep,,,,2004-02-17,,,OLDER,,,,,,,2494,,,,,
+
+[Wizard Host]
+"hostwiz_dll" = 1,Common\Wizard98\Hostwiz.dll,,,,2000-07-15,,1033,OLDER,,,,,,,155648,,,,6.0.0.8450,
+
+[VB Binding Manager]
+"msbind_dll" = 1,os\system\msbind.dll,,,,2004-02-23,,1033,OLDER,,,,,,,78848,,,,6.1.97.82,
+"msbind_dep" = 1,os\system\msbind.dep,,,,2004-02-23,,,OLDER,,,,,,,492,,,,,
+
+[DAO]
+"dao360_dll" = 1,os\system\dao360.dll,,,,2000-06-13,,0,OLDER,,,,,,,557328,SYSTEM,,,3.60.2521.8,
+
+[VB TABCTL32]
+"tabctl32_ocx" = 1,os\system\tabctl32.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,224016,,,,6.1.97.82,
+"tabctl32_dep" = 1,os\system\tabctl32.dep,,,,2004-02-23,,,OLDER,,,,,,,2494,,,,,
+
+[Remote Data Access]
+"msrdo20_dll" = 1,os\system\msrdo20.dll,,,,2004-02-23,,1033,OLDER,,,,,,,397824,SYSTEM,,,6.1.97.82,
+"rdocurs_dll" = 1,os\system\Rdocurs.dll,,,,2000-08-02,,1033,OLDER,,,,,,,151552,SYSTEM,,,6.0.88.4,
+"msrdo20_dep" = 1,os\system\msrdo20.dep,,,,2004-02-17,,,OLDER,,,,,,,2670,SYSTEM,,,,
+"msrdc20_ocx" = 1,os\system\msrdc20.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,178208,SYSTEM,,,6.0.84.18,
+"msrdc20_dep" = 1,os\system\msrdc20.dep,,,,2000-06-13,,,OLDER,,,,,,,2493,SYSTEM,,,,
+
+[dag Data Env Control]
+"mshflxgd_ocx" = 1,os\system\mshflxgd.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,440352,SYSTEM,,,6.0.88.4,
+"mshflxgd_dep" = 1,os\system\mshflxgd.dep,,,,2000-08-02,,,OLDER,,,,,,,2522,SYSTEM,,,,
+
+[dag Data Env]
+"msdeui_dll_esp" = 1,Shared\DataEnv\Resource\3082\msdeui.dll,,,,2000-07-15,,3082,OLDER,,,,,,,37376,SYSTEM,,,6.0.88.62,
+"msde_dll" = 1,shared\DataEnv\msde.dll,,,,2004-02-23,,1033,OLDER,,,,,,,747520,SYSTEM,,,6.1.97.82,
+"msderun_dll" = 1,shared\DataEnv\msderun.dll,,,,2000-07-15,,1033,OLDER,,,,,,,136192,SYSTEM,,,6.0.88.4,
+"msderun_dep" = 1,shared\DataEnv\msderun.dep,,,,2000-06-13,,,OLDER,,,,,,,577,,,,,
+
+[viEditor - TriEdit]
+"triedit_dll" = 1,Shared\Triedit\triedit.dll,,,,2000-07-15,,1033,OLDER,,,,,,,204907,,,,6.1.0.8243,
+
+[VB Repository AddIn]
+"repvbrc_dll" = 1,VB98\RepVbRc.dll,,,,2000-06-13,,3082,OLDER,,,,,,,32016,,,,6.0.8161.1,
+
+[VB TLBINF32]
+"tlbinf32_dll_1" = 1,os\system\tlbinf32.dll,,,,2004-02-23,,1033,OLDER,,,,,,,150528,SYSTEM,,,1.1.97.82,
+
+[Wizards]
+"dataform_ocx_1" = 1,VB98\Wizards\dataform.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,543504,,,,6.0.0.8804,
+
+[Compiler Files]
+"link_exe_1" = 1,VB98\link.exe,,,,1999-06-02,,1033,OLDER,,,,,,,462901,,,,6.0.8447.0,
+"c2_exe_2" = 1,VB98\c2.exe,,,,2000-07-15,,1033,OLDER,,,,,,,692224,,,,12.0.8783.0,
+
+[vc IDE and Tools]
+"msdis110_dll" = 1,VB98\msdis110.dll,,,,2000-07-15,,1033,OLDER,,,,,,,184320,,,,1.12.9438.0,
+
+[VB Page Designer]
+"htmutil_dll_1" = 1,os\system\htmutil.dll,,,,2000-07-15,,3082,OLDER,,,,,,,182754,,,,6.0.0.8405,
+
+[VB Core Files]
+"vb6_exe" = 1,VB98\vb6.exe,,,,2004-02-23,,1033 0,OLDER,,,,,,,1895424,,,,6.0.97.82,
+"vb6debug_dll" = 1,VB98\vb6debug.dll,,,,2000-07-15,,1033,OLDER,,,,,,,14096,SYSTEM,,,6.0.84.62,
+"vba6_dll" = 1,VB98\vba6.dll,,,,2004-02-23,,0,OLDER,,,,,,,1696528,,,,6.0.0.9782,
+"vb6ide_dll" = 1,VB98\vb6ide.dll,,,,2004-03-10,,3082,OLDER,,,,,,,1052944,,,,6.0.97.82,
+"ado210_chm" = 1,VB98\ado210.chm,,,,2000-07-15,,,OLDER,,,,,,,841644,,,,,
+
+[Connection Designer]
+"mscdrun_dll_2" = 1,os\system\mscdrun.dll,,,,2000-03-14,,1033,OLDER,,,,,,,49152,,,,6.0.88.4,
+"mscdrun_dep_2" = 1,os\system\mscdrun.dep,,,,2000-06-13,,,OLDER,,,,,,,2541,,,,,
+
+[Automation Manager]
+"autmgr32_exe_3" = 1,os\system\autmgr32.exe,,,,2000-07-15,,1033,OLDER,,,,,,,165680,,,,5.0.42.24,
+
+[VB DataBind]
+"dbadapt_dll_1" = 1,os\system\dbadapt.dll,,,,2000-07-15,,1033,OLDER,,,,,,,45056,,,,6.0.88.4,
+
+[VB TSQL]
+"vbsdidb_dll" = 1,VB98\tsql\vbsdidb.dll,,,,2004-02-23,,1033,OLDER,,,,,,,311296,,,,6.1.97.82,
+"vbsdiadd_dll" = 1,VB98\tsql\vbsdiadd.dll,,,,2000-09-25,,3082,OLDER,,,,,,,159744,,,,6.0.0.8225,
+"vbsdicli_exe" = 1,VB98\tsql\vbsdicli.exe,,,,2004-02-23,,1033,OLDER,,,,,,,81920,,,,6.1.97.82,
+"vbsdidb_srg_1" = 1,VB98\tsql\vbsdidb.srg,,,,2000-06-13,,,OLDER,,,,,,,111,,,,,
+
+[VB SQL Debugging]
+"sqlparse_dll" = 1,os\system\sqlparse.dll,,,,2000-07-15,,1033,OLDER,,,,,,,118784,SYSTEM,,,5.0.84.61,
+
+[VB Control/Report]
+"msdbrpt_dll_1" = 1,os\system\msdbrpt.dll,,,,2004-02-23,,1033,OLDER,,,,,,,334848,SYSTEM,,,6.1.97.82,
+"msdbrptr_dll_1" = 1,os\system\msdbrptr.dll,,,,2004-02-23,,1033,OLDER,,,,,,,322560,SYSTEM,,,6.1.97.82,
+"msdbrptr_dep_1" = 1,os\system\msdbrptr.dep,,,,2004-02-23,,,OLDER,,,,,,,2545,,,,,
+
+[AllVer Wizards]
+"appwiz_ocx" = 1,VB98\Wizards\appwiz.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,838416,,,,6.0.0.8450,
+"resedit_dll" = 1,VB98\Wizards\resedit.dll,,,,2000-07-15,,1033,OLDER,,,,,,,368640,,,,6.0.0.8450,
+
+[Setupkit Binary]
+"makecab_exe" = 1,VB98\Wizards\PDWizard\Makecab.exe,,,,2000-07-15,,1033,OLDER,,,,,,,154112,,,,1.0.603.4,
+"pdaddin_dll" = 1,VB98\Wizards\PDWizard\PDAddin.dll,,,,2000-07-15,,1033,OLDER,,,,,,,57344,,,,6.0.0.8450,
+"pdcmdln_exe" = 1,VB98\Wizards\PDWizard\PDCmdLn.exe,,,,2000-07-15,,1033,OLDER,,,,,,,57344,,,,6.0.0.8450,
+"pdwizard_ocx" = 1,VB98\Wizards\PDWizard\PDWizard.ocx,,,,2004-03-09,,1033,OLDER,,,,,,,1649424,,,,6.0.0.9782,
+"setup_exe_3" = 1,VB98\Wizards\PDWizard\Setup.exe,,,,2004-03-10,,3082,OLDER,,,,,,,141824,,,,6.0.97.82,
+"setup1_exe" = 1,VB98\Wizards\PDWizard\Setup1.exe,,,,2004-03-10,,3082,OLDER,,,,,,,253952,,,,6.0.0.9782,
+"st5unst_exe" = 1,VB98\Wizards\PDWizard\St6unst.exe,,,,2004-03-10,,3082,OLDER,,,,,,,74240,,,,6.0.97.82,
+"vb5dep_ini" = 1,VB98\Wizards\PDWizard\Vb6dep.ini,,,,2004-02-17,,,OLDER,,,,,,,24766,,,,,
+"dlgobjs_dll" = 1,VB98\Wizards\PDWizard\dlgobjs.dll,,,,2000-07-15,,1033,OLDER,,,,,,,81920,,,,4.0.1.23,
+"pdwizesp_dll" = 1,VB98\Wizards\PDWizard\pdwizesn.dll,,,,2000-07-15,,3082,OLDER,,,,,,,339968,,,,6.0.0.8450,
+
+[Setupkit Vb5stkit]
+"vb5stkit_dll" = 1,VB98\Wizards\PDWizard\Vb6stkit.dll,,,,2000-07-15,,3082,OLDER,,,,,,,101888,,,,6.0.84.50,
+
+[Setupkit Source]
+"begin_frm" = 1,VB98\Wizards\PDWizard\Setup1\Begin.frm,,,,2000-06-13,,,OLDER,,,,,,,7117,,,,,
+"begin_frx" = 1,VB98\Wizards\PDWizard\Setup1\Begin.frx,,,,2000-07-15,,,OLDER,,,,,,,3140,,,,,
+"common_bas" = 1,VB98\Wizards\PDWizard\Setup1\Common.bas,,,,2000-06-13,,,OLDER,,,,,,,73079,,,,,
+"commonrc_h" = 1,VB98\Wizards\PDWizard\Setup1\Commonrc.h,,,,2000-06-13,,,OLDER,,,,,,,1739,,,,,
+"commonrc_rc" = 1,VB98\Wizards\PDWizard\Setup1\Commonrc.rc,,,,2000-06-13,,,OLDER,,,,,,,3479,,,,,
+"copy_frm" = 1,VB98\Wizards\PDWizard\Setup1\Copy.frm,,,,2000-06-13,,,OLDER,,,,,,,3985,,,,,
+"copy_frx" = 1,VB98\Wizards\PDWizard\Setup1\Copy.frx,,,,2000-07-15,,,OLDER,,,,,,,1090,,,,,
+"dskspace_frm" = 1,VB98\Wizards\PDWizard\Setup1\Dskspace.frm,,,,2000-06-13,,,OLDER,,,,,,,13071,,,,,
+"dskspace_frx" = 1,VB98\Wizards\PDWizard\Setup1\Dskspace.frx,,,,2000-07-15,,,OLDER,,,,,,,1090,,,,,
+"group_frm" = 1,VB98\Wizards\PDWizard\Setup1\Group.frm,,,,2000-06-13,,,OLDER,,,,,,,8068,,,,,
+"group_frx" = 1,VB98\Wizards\PDWizard\Setup1\Group.frx,,,,2000-07-15,,,OLDER,,,,,,,1112,,,,,
+"install_bmp" = 1,VB98\Wizards\PDWizard\Setup1\install.bmp,,,,2000-07-15,,,OLDER,,,,,,,4918,,,,,
+"logging_bas" = 1,VB98\Wizards\PDWizard\Setup1\Logging.bas,,,,2000-06-13,,,OLDER,,,,,,,11102,,,,,
+"message_frm" = 1,VB98\Wizards\PDWizard\Setup1\Message.frm,,,,2000-06-13,,,OLDER,,,,,,,1611,,,,,
+"message_frx" = 1,VB98\Wizards\PDWizard\Setup1\Message.frx,,,,2000-07-15,,,OLDER,,,,,,,2180,,,,,
+"modshell_bas" = 1,VB98\Wizards\PDWizard\Setup1\modshell.bas,,,,2000-06-13,,,OLDER,,,,,,,1166,,,,,
+"path_frm" = 1,VB98\Wizards\PDWizard\Setup1\Path.frm,,,,2000-06-13,,,OLDER,,,,,,,10440,,,,,
+"path_frx" = 1,VB98\Wizards\PDWizard\Setup1\Path.frx,,,,2000-07-15,,,OLDER,,,,,,,1090,,,,,
+"serverdt_frm" = 1,VB98\Wizards\PDWizard\Setup1\Serverdt.frm,,,,2000-06-13,,,OLDER,,,,,,,16869,,,,,
+"serverdt_frx" = 1,VB98\Wizards\PDWizard\Setup1\Serverdt.frx,,,,2000-07-15,,,OLDER,,,,,,,1090,,,,,
+"setup1_bas" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.bas,,,,2000-06-13,,,OLDER,,,,,,,196757,,,,,
+"setup1_frm" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.frm,,,,2000-06-13,,,OLDER,,,,,,,24984,,,,,
+"setup1_frx" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.frx,,,,2000-07-15,,,OLDER,,,,,,,1278,,,,,
+"setup1_ico" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.ico,,,,2000-07-15,,,OLDER,,,,,,,1078,,,,,
+"setup1_rc" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.rc,,,,2000-06-13,,,OLDER,,,,,,,9953,,,,,
+"setup1_res" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.res,,,,2000-07-15,,,OLDER,,,,,,,19224,,,,,
+"setup1_vbp" = 1,VB98\Wizards\PDWizard\Setup1\Setup1.vbp,,,,2000-06-13,,,OLDER,,,,,,,1731,,,,,
+"setupres_bas" = 1,VB98\Wizards\PDWizard\Setup1\Setupres.bas,,,,2000-06-13,,,OLDER,,,,,,,6113,,,,,
+"setupres_h" = 1,VB98\Wizards\PDWizard\Setup1\Setupres.h,,,,2000-06-13,,,OLDER,,,,,,,4051,,,,,
+"vbshell_odl" = 1,VB98\Wizards\PDWizard\Setup1\vbshell.odl,,,,2000-06-13,,,OLDER,,,,,,,1890,,,,,
+"vbshell_tlb" = 1,VB98\Wizards\PDWizard\Setup1\vbshell.tlb,,,,2000-07-15,,,OLDER,,,,,,,2732,,,,,
+"welcome_frm" = 1,VB98\Wizards\PDWizard\Setup1\Welcome.frm,,,,2000-06-13,,,OLDER,,,,,,,5029,,,,,
+"welcome_frx" = 1,VB98\Wizards\PDWizard\Setup1\Welcome.frx,,,,2000-07-15,,,OLDER,,,,,,,2180,,,,,
+"registry_bas" = 1,VB98\Wizards\PDWizard\Setup1\registry.bas,,,,2000-06-13,,,OLDER,,,,,,,8611,,,,,
+"overwrit_frx" = 1,VB98\Wizards\PDWizard\Setup1\overwrit.frx,,,,2000-07-15,,,OLDER,,,,,,,12,,,,,
+"overwrit_frm" = 1,VB98\Wizards\PDWizard\Setup1\overwrit.frm,,,,2000-06-13,,,OLDER,,,,,,,4956,,,,,
+
+[Setupkit Redist]
+"co2c40en_dll_1" = 1,VB98\Wizards\PDWizard\Redist\co2c40en.dll,,,,2000-07-15,,1033,OLDER,,,,,,,193376,,,,4.6.1.106,
+"mfc40_dll_3" = 1,VB98\Wizards\PDWizard\Redist\mfc40.dll,,,,1999-06-01,,1033,OLDER,,,,,,,924432,,,,4.1.0.6140,
+"msvcrt40_dll_4" = 1,VB98\Wizards\PDWizard\Redist\msvcrt40.dll,,,,1999-06-01,,1033,OLDER,,,,,,,326656,,,,4.22.0.0,
+"comcat_dll_4" = 1,VB98\Wizards\PDWizard\Redist\comcat.dll,,,,1999-06-01,,1033,OLDER,,,,,,,22288,,,,4.71.1460.1,
+"asycfilt_dll_2" = 1,VB98\Wizards\PDWizard\Redist\asycfilt.dll,,,,1999-03-08,,1033,OLDER,,,,,,,147728,,,,2.40.4275.1,
+"oleaut32_dll_4" = 1,VB98\Wizards\PDWizard\Redist\oleaut32.dll,,,,2000-04-12,,1033,OLDER,,,,,,,598288,,,,2.40.4275.1,
+"olepro32_dll_4" = 1,VB98\Wizards\PDWizard\Redist\olepro32.dll,,,,1999-03-08,,1033,OLDER,,,,,,,164112,,,,5.0.4275.1,
+"stdole2_tlb_3" = 1,VB98\Wizards\PDWizard\Redist\stdole2.tlb,,,,1999-06-03,,1033,OLDER,,,,,,,17920,,,,2.40.4275.1,
+"msvcrt_dll_2" = 1,VB98\Wizards\PDWizard\Redist\msvcrt.dll,,,,2004-02-17,,1033,OLDER,,,,,,,278581,,,,6.0.9782.0,
+
+[VB Dataview]
+"dataview_dll" = 1,VB98\dataview.dll,,,,2000-09-25,,3082,OLDER,,,,,,,544768,SYSTEM,,,6.0.0.8957,
+
+[VB Conversation Object]
+"mscnvman_dll" = 1,os\system\mswcrun.dll,,,,2004-02-23,,1033,OLDER,,,,,,,300544,SYSTEM,,,6.1.97.82,
+"mswcrun_dep" = 1,os\system\mswcrun.dep,,,,2004-02-17,,,OLDER,,,,,,,2474,,,,,
+"wbclsdsr_ocx" = 1,os\system\wbclsdsr.ocx,,,,2004-02-23,,1033,OLDER,,,,,,,324608,,,,6.1.97.82,
+
+[Wizard Framework]
+"iswframe_dll" = 1,Shared\Wizard98\viwzrt.dll,,,,2000-07-15,,3082,OLDER,,,,,,,696320,,,,6.1.0.8806,
+
+[VC-ATL-COMMON-HDR]
+"atlconv_h" = 1,vc98\atl\include\atlconv.h,,,,2003-01-30,,,OLDER,,,,,,,13263,,,,,
+"atlconv_cpp" = 1,vc98\atl\include\atlconv.cpp,,,,2000-06-13,,,OLDER,,,,,,,457,,,,,
+"atldbcli_h" = 1,vc98\atl\include\atldbcli.h,,,,2003-01-30,,,OLDER,,,,,,,106051,,,,,
+"atldb_h" = 1,vc98\atl\include\atldb.h,,,,2003-01-30,,,OLDER,,,,,,,201415,,,,,
+"atldbsch_h" = 1,vc98\atl\include\atldbsch.h,,,,2002-12-09,,,OLDER,,,,,,,38305,,,,,
+
+[VC - ATL Header]
+"atlbase_h" = 1,vc98\atl\include\atlbase.h,,,,2003-01-30,,,OLDER,,,,,,,141173,,,,,
+"atlcom_h" = 1,vc98\atl\include\atlcom.h,,,,2004-01-28,,,OLDER,,,,,,,138820,,,,,
+"atlctl_cpp" = 1,vc98\atl\include\atlctl.cpp,,,,2000-06-13,,,OLDER,,,,,,,457,,,,,
+"atlctl_h" = 1,vc98\atl\include\atlctl.h,,,,2000-06-13,,,OLDER,,,,,,,96604,,,,,
+"atliface_h" = 1,vc98\atl\include\atliface.h,,,,2004-01-28,,,OLDER,,,,,,,75908,,,,,
+"atlimpl_cpp" = 1,vc98\atl\include\atlimpl.cpp,,,,2003-01-30,,,OLDER,,,,,,,4801,,,,,
+"atlhost_h" = 1,vc98\atl\include\atlhost.h,,,,2003-01-30,,,OLDER,,,,,,,74440,,,,,
+"atldef_h" = 1,vc98\atl\include\atldef.h,,,,2000-06-13,,,OLDER,,,,,,,4090,,,,,
+"atlsnap_h" = 1,vc98\atl\include\atlsnap.h,,,,2000-06-13,,,OLDER,,,,,,,42739,,,,,
+"atlwin_cpp" = 1,vc98\atl\include\atlwin.cpp,,,,2000-06-13,,,OLDER,,,,,,,457,,,,,
+"atlwin_h" = 1,vc98\atl\include\atlwin.h,,,,2003-01-30,,,OLDER,,,,,,,83836,,,,,
+"statreg_cpp" = 1,vc98\atl\include\statreg.cpp,,,,2000-06-13,,,OLDER,,,,,,,457,,,,,
+"statreg_h" = 1,vc98\atl\include\statreg.h,,,,2003-01-30,,,OLDER,,,,,,,28470,,,,,
+
+[WIN32 SDK Libs1]
+"uuid_lib" = 1,vc98\lib\uuid.Lib,,,,2004-02-27,,,OLDER,,,,,,,1110586,,,,,
+"oleaut32_lib" = 1,vc98\lib\oleaut32.lib,,,,2000-09-15,,,OLDER,,,,,,,292862,,,,,
+
+[VC - Utilities]
+"cvtres_exe" = 1,vc98\bin\cvtres.exe,,,,2000-07-15,,1033,OLDER,,,,,,,15632,,,,5.0.1736.1,
+"link_exe" = 1,vc98\bin\link.exe,,,,1999-06-02,,1033,OLDER,,,,,,,462901,,,,6.0.8447.0,
+"nmake_exe" = 1,vc98\bin\nmake.exe,,,,2004-02-27,,1033,OLDER,,,,,,,77882,,,,6.0.9782.0,
+
+[Sys Files - CRT (IO) Dlls]
+"msvcirt_dll" = 1,os\system\msvcirt.dll,,,,2004-02-17,,1033,OLDER,,,,,,,77878,SYSTEM,,,6.0.9782.0,
+
+[VC CRT SRC Common1]
+"_ios_cpp" = 1,vc98\crt\src\_ios.cpp,,,,2000-06-13,,,OLDER,,,,,,,6155,,,,,
+
+[VC CRT SRC Common26]
+"strftime_c" = 1,vc98\crt\src\strftime.c,,,,2004-01-28,,,ALWAYS,,,,,,,33378,,,,,
+"calloc_c" = 1,vc98\crt\src\calloc.c,,,,2000-06-13,,,OLDER,,,,,,,5300,,,,,
+"dbgheap_c" = 1,vc98\crt\src\dbgheap.c,,,,2000-06-13,,,OLDER,,,,,,,60862,,,,,
+"delete_cpp" = 1,vc98\crt\src\delete.cpp,,,,2000-06-13,,,OLDER,,,,,,,430,,,,,
+"expand_c" = 1,vc98\crt\src\expand.c,,,,2000-06-13,,,OLDER,,,,,,,4889,,,,,
+"free_c" = 1,vc98\crt\src\free.c,,,,2000-06-13,,,OLDER,,,,,,,4790,,,,,
+"heapchk_c" = 1,vc98\crt\src\heapchk.c,,,,2000-06-13,,,OLDER,,,,,,,8157,,,,,
+"heapinit_c" = 1,vc98\crt\src\heapinit.c,,,,2000-06-13,,,OLDER,,,,,,,20796,,,,,
+"heapmin_c" = 1,vc98\crt\src\heapmin.c,,,,2000-06-13,,,OLDER,,,,,,,13134,,,,,
+"malloc_c" = 1,vc98\crt\src\malloc.c,,,,2000-06-13,,,OLDER,,,,,,,8826,,,,,
+"msize_c" = 1,vc98\crt\src\msize.c,,,,2000-06-13,,,OLDER,,,,,,,3508,,,,,
+"new_cpp" = 1,vc98\crt\src\new.cpp,,,,2000-06-13,,,OLDER,,,,,,,553,,,,,
+"realloc_c" = 1,vc98\crt\src\realloc.c,,,,2000-06-13,,,OLDER,,,,,,,22973,,,,,
+"sbheap_c" = 1,vc98\crt\src\sbheap.c,,,,2000-06-13,,,OLDER,,,,,,,104998,,,,,
+"winheap_h" = 1,vc98\crt\src\winheap.h,,,,2000-06-13,,,OLDER,,,,,,,9007,,,,,
+"tzset_c" = 1,vc98\crt\src\tzset.c,,,,2000-06-13,,,OLDER,,,,,,,29543,,,,,
+
+[VC CRT SRC Common38]
+"xtree_2" = 1,vc98\crt\src\xtree,,,,2000-08-23,,,OLDER,,,,,,,30446,,,,,
+"fstream" = 1,vc98\crt\src\fstream,,,,2000-08-29,,,OLDER,,,,,,,12477,,,,,
+"output_c_1" = 1,vc98\crt\src\output.c,,,,2004-01-28,,,ALWAYS,,,,,,,88487,,,,,
+
+[CRT Shr Sym]
+"msvcrtd_pdb" = 1,vc98\debug\msvcrtd.pdb,,,,2004-02-17,,,ALWAYS,,,,,,,1827840,,,,,
+"msvcrt_pdb" = 1,vc98\debug\msvcrt.pdb,,,,2004-02-17,,,ALWAYS,,,,,,,2499584,,,,,
+"msvcp60_dll" = 1,vc98\redist\msvcp60.dll,,,,2000-08-29,,1033,OLDER,,,,,,,401462,,,,6.0.8972.0,
+"msvcp60_pdb" = 1,vc98\debug\msvcp60.pdb,,,,2003-01-15,,,OLDER,,,,,,,1999872,,,,,
+"msvcp60d_dll" = 1,vc98\debug\msvcp60d.dll,,,,2000-08-29,,1033,OLDER,,,,,,,516173,,,,6.0.8972.0,
+"msvcp60d_pdb" = 1,vc98\debug\msvcp60d.pdb,,,,2000-08-29,,,OLDER,,,,,,,1442816,,,,,
+"msvcirt_pdb" = 1,vc98\debug\msvcirt.pdb,,,,2004-02-17,,,OLDER,,,,,,,574464,,,,,
+"msvcirtd_pdb" = 1,vc98\debug\msvcirtd.pdb,,,,2004-02-17,,,OLDER,,,,,,,410624,,,,,
+
+[CRT Stat Sym]
+"libcmtd_pdb" = 1,vc98\lib\libcmtd.pdb,,,,2004-02-17,,,ALWAYS,,,,,,,86016,,,,,
+
+[CRT Stat Lib]
+"libcmt_lib" = 1,vc98\lib\libcmt.lib,,,,2004-02-17,,,ALWAYS,,,,,,,934378,,,,,
+"libcmtd_lib" = 1,vc98\lib\libcmtd.lib,,,,2004-02-17,,,ALWAYS,,,,,,,3218510,,,,,
+"libcp_lib" = 1,vc98\lib\libcp.lib,,,,2000-08-29,,,OLDER,,,,,,,721584,,,,,
+"libcpd_lib" = 1,vc98\lib\libcpd.lib,,,,2000-08-29,,,OLDER,,,,,,,1639090,,,,,
+"libcpd_pdb" = 1,vc98\lib\libcpd.pdb,,,,2000-08-29,,,OLDER,,,,,,,167936,,,,,
+"libcpmt_lib" = 1,vc98\lib\libcpmt.lib,,,,2000-08-29,,,OLDER,,,,,,,735302,,,,,
+"libcpmtd_lib" = 1,vc98\lib\libcpmtd.lib,,,,2000-08-29,,,OLDER,,,,,,,1647760,,,,,
+"libcpmtd_pdb" = 1,vc98\lib\libcpmtd.pdb,,,,2000-08-29,,,OLDER,,,,,,,167936,,,,,
+"libcimt_lib" = 1,vc98\lib\libcimt.lib,,,,2004-02-17,,,OLDER,,,,,,,181758,,,,,
+"libcimtd_lib" = 1,vc98\lib\libcimtd.lib,,,,2004-02-17,,,OLDER,,,,,,,608636,,,,,
+"libcimtd_pdb" = 1,vc98\lib\libcimtd.pdb,,,,2004-02-17,,,OLDER,,,,,,,77824,,,,,
+
+[Shr Lib Copy]
+"msvcrt_lib" = 1,vc98\lib\msvcrt.lib,,,,2000-08-23,,,ALWAYS,,,,,,,235942,,,,,
+"msvcrtd_lib" = 1,vc98\lib\msvcrtd.lib,,,,2000-08-23,,,ALWAYS,,,,,,,357648,,,,,
+"msvcrtd_pdb_1" = 1,vc98\lib\msvcrtd.pdb,,,,2000-08-23,,,ALWAYS,,,,,,,86016,,,,,
+"msvcprt_lib" = 1,vc98\lib\msvcprt.lib,,,,2000-08-29,,,OLDER,,,,,,,909060,,,,,
+"msvcprtd_lib" = 1,vc98\lib\msvcprtd.lib,,,,2000-08-29,,,OLDER,,,,,,,914412,,,,,
+"msvcprtd_pdb" = 1,vc98\lib\msvcprtd.pdb,,,,2000-08-29,,,OLDER,,,,,,,208896,,,,,
+
+[Vc Crt OS Debug]
+"msvcrtd_dll" = 1,vc98\debug\msvcrtd.dll,,,,2004-02-17,,1033,OLDER,,,,,,,434252,,,,6.0.9782.0,
+"msvcirtd_dll" = 1,vc98\debug\msvcirtd.dll,,,,2004-02-17,,1033,OLDER,,,,,,,94285,,,,6.0.9782.0,
+
+[vc crt header2]
+"fpieee_h_3" = 1,vc98\include\fpieee.h,,,,2000-06-13,,,OLDER,,,,,,,6603,,,,,
+"malloc_h" = 1,vc98\include\malloc.h,,,,2000-06-13,,,OLDER,,,,,,,3741,,,,,
+
+[vc crt header6]
+"xtree_3" = 1,vc98\include\xtree,,,,2000-08-23,,,OLDER,,,,,,,30430,,,,,
+"fstream_1" = 1,vc98\include\fstream,,,,2000-08-29,,,OLDER,,,,,,,11568,,,,,
+
+[WIN32 SDK Headers]
+"oleauto_h" = 1,vc98\include\OLEAuto.h,,,,2000-09-15,,,OLDER,,,,,,,41500,,,,,
+
+[vc Libraries Section]
+"comsupp_lib_1" = 1,vc98\lib\comsupp.lib,,,,2000-07-15,,,OLDER,,,,,,,189028,,,,,
+"atldload_lib" = 1,vc98\lib\atldload.lib,,,,2004-02-27,,,OLDER,,,,,,,243306,,,,,
+"mfcdload_lib" = 1,vc98\lib\mfcdload.lib,,,,2004-02-27,,,OLDER,,,,,,,450980,,,,,
+
+[vc MFC IIS Shr Lib]
+"eafxis_lib" = 1,vc98\mfc\lib\eafxis.lib,,,,2004-02-27,,,OLDER,,,,,,,139398,,,,,
+"eafxisd_lib" = 1,vc98\mfc\lib\eafxisd.lib,,,,2004-02-27,,,OLDER,,,,,,,134726,,,,,
+"eafxisd_pdb" = 1,vc98\mfc\lib\eafxisd.pdb,,,,2004-02-27,,,OLDER,,,,,,,544768,,,,,
+
+[CRT Stat Sin Thrd Sym]
+"libcd_pdb" = 1,vc98\lib\libcd.pdb,,,,2004-02-17,,,OLDER,,,,,,,86016,,,,,
+
+[CRT Stat Sin Trd Lib]
+"libc_lib" = 1,vc98\lib\libc.lib,,,,2004-02-17,,,OLDER,,,,,,,884344,,,,,
+"libcd_lib" = 1,vc98\lib\libcd.lib,,,,2004-02-17,,,OLDER,,,,,,,2604466,,,,,
+
+[VC - ATL LIB]
+"atl_lib" = 1,vc98\lib\atl.lib,,,,2004-02-27,,,OLDER,,,,,,,13574,,,,,
+
+[VC - Native Debugger]
+"dm_dll" = 1,common\msdev98\bin\dm.dll,,,,2004-02-27,,1033,OLDER,,,,,,,106566,,,,6.0.9782.0,
+"eecxx_dll_1" = 1,common\msdev98\bin\eecxx.dll,,,,2004-02-27,,1033,OLDER,,,,,,,184388,,,,6.0.9782.0,
+"em_dll_1" = 1,common\msdev98\bin\em.dll,,,,2000-07-15,,1033,OLDER,,,,,,,69697,,,,6.0.8804.0,
+"shcv_dll" = 1,common\msdev98\bin\shcv.dll,,,,2000-07-15,,1033,OLDER,,,,,,,65613,,,,6.0.8798.0,
+"tln0t_dll" = 1,common\msdev98\bin\tln0t.dll,,,,2000-07-15,,1033,OLDER,,,,,,,28746,,,,6.0.8447.0,
+
+[VC Front End]
+"c1_dll" = 1,vc98\bin\c1.dll,,,,2004-02-17,,1033,OLDER,,,,,,,696369,,,,12.0.9782.0,
+"c1xx_dll" = 1,vc98\bin\c1xx.dll,,,,2004-02-17,,1033,OLDER,,,,,,,1220659,,,,12.0.9782.0,
+
+[VC Back End]
+"cl_exe_3" = 1,vc98\bin\cl.exe,,,,2000-03-14,,1033,OLDER,,,,,,,51200,,,,12.0.8804.0,
+"c2_exe" = 1,os\system\msvcep.dll<c2.dll>,,,,2004-02-17,,1033,OLDER,,,,,,,737329,,,,12.0.9782.0,
+"c2_dll_1" = 1,os\system\msse.dll<c2.dll>,,,,2004-02-17,,1033,OLDER,,,,,,,708669,,,,11.99.9782.0,
+"c2_dll_2" = 1,os\system\intro.dll<c2.dll>,,,,2000-03-08,,1033,OLDER,,,,,,,708670,,,,11.98.8798.0,
+
+[VC PP Remove Src]
+"align_c"= 1,align.c,,,,,,,,,,,,,,,,,,,
+
+[VC PP Remove Hdr]
+"dvec_h"= 1,dvec.h,,,,,,,,,,,,,,,,,,,
+"emmint_1_h"= 1,emmint_1.h<emmintrin.h>,,,,,,,,,,,,,,,,,,,
+"fvec_h"= 1,fvec.h,,,,,,,,,,,,,,,,,,,
+"ivec_h"= 1,ivec.h,,,,,,,,,,,,,,,,,,,
+"mm3dnow_h"= 1,mm3dnow.h,,,,,,,,,,,,,,,,,,,
+"mmintrin_h"= 1,mmintrin.h,,,,,,,,,,,,,,,,,,,
+"xmmint_1_h"= 1,xmmint_1.h<xmmintrin.h>,,,,,,,,,,,,,,,,,,,
+"fpieee_h"= 1,fpieee.h,,,,,,,,,,,,,,,,,,,
+
+[VC - ATL WizTemplates 4]
+"psession_h" = 1,common\msdev98\template\atl\psession.h,,,,2000-06-13,,,OLDER,,,,,,,4637,,,,,
+
+[VC - ATL Wiz]
+"atlobj_dll" = 1,common\msdev98\bin\ide\atlobj.dll,,,,2000-07-15,,1033,OLDER,,,,,,,647239,,,,6.0.8447.0,
+
+[vc IDE Packages]
+"devclvw_pkg" = 1,common\msdev98\bin\ide\devclvw.pkg,,,,2000-07-15,,1033,OLDER,,,,,,,311349,,,,6.0.8447.0,
+"devcpp_pkg" = 1,common\msdev98\bin\ide\devcpp.pkg,,,,2000-07-15,,1033,OLDER,,,,,,,589890,,,,6.0.8798.0,
+"devdbg_pkg_1" = 1,common\msdev98\bin\ide\devdbg.pkg,,,,2000-07-15,,1033,OLDER,,,,,,,585794,,,,6.0.8804.0,
+"mfcapwz_dll" = 1,common\msdev98\bin\ide\mfcapwz.dll,,,,2004-02-27,,1033,OLDER,,,,,,,1028149,,,,6.0.9782.0,
+"devbld_pkg" = 1,common\msdev98\bin\ide\devbld.pkg,,,,2004-02-27,,1033,OLDER,,,,,,,1167412,,,,6.0.9782.0,
+"devaut1_pkg" = 1,common\msdev98\bin\ide\devaut1.pkg,,,,2000-07-15,,1033,OLDER,,,,,,,167989,,,,6.0.8447.0,
+
+[vc Core IDE]
+"devedit_pkg" = 1,common\msdev98\bin\devedit.pkg,,,,2004-02-27,,1033,OLDER,,,,,,,774193,,,,6.0.9782.0,
+"devprj_pkg" = 1,common\msdev98\bin\devprj.pkg,,,,2000-07-15,,1033,OLDER,,,,,,,389168,,,,6.0.8447.0,
+"devshl_dll" = 1,common\msdev98\bin\devshl.dll,,,,2004-02-27,,1033,OLDER,,,,,,,1347632,,,,6.0.9782.0,
+"feacp_dll" = 1,common\msdev98\bin\feacp.dll,,,,2004-02-27,,1033,OLDER,,,,,,,888898,,,,12.0.9782.0,
+"msdev_exe" = 1,common\msdev98\bin\msdev.exe,,,,2004-02-27,,1033,OLDER,,,,,,,278575,,,,6.0.9782.2,
+"msdevp_exe" = 1,common\msdev98\bin\msdevP.exe,,,,2004-02-27,,1033,OLDER,,,msdev.exe,!ROOT,,,270406,,,,6.0.9782.1,
+"msdevs_exe" = 1,common\msdev98\bin\msdevS.exe,,,,2004-02-27,,1033,OLDER,,,msdev.exe,!ROOT,,,270406,,,,6.0.9782.0,
+
+[vc Mfc Makefile Section]
+"mfcdb_mak" = 1,vc98\mfc\src\mfcdb.mak,,,,2004-02-17,,,OLDER,,,,,,,3882,,,,,
+"mfcdll_mak" = 1,vc98\mfc\src\mfcdll.mak,,,,2004-02-17,,,OLDER,,,,,,,5811,,,,,
+"mfcnet_mak" = 1,vc98\mfc\src\mfcnet.mak,,,,2004-02-17,,,OLDER,,,,,,,3787,,,,,
+"mfcole_mak" = 1,vc98\mfc\src\mfcole.mak,,,,2004-02-17,,,OLDER,,,,,,,3819,,,,,
+
+[vc MFC IIS Static Lib]
+"nafxis_lib" = 1,vc98\mfc\lib\nafxis.lib,,,,2004-02-27,,,OLDER,,,,,,,102968,,,,,
+"nafxisd_lib" = 1,vc98\mfc\lib\nafxisd.lib,,,,2004-02-27,,,OLDER,,,,,,,111750,,,,,
+"nafxisd_pdb" = 1,vc98\mfc\lib\nafxisd.pdb,,,,2004-02-27,,,OLDER,,,,,,,86016,,,,,
+
+[VC - MFC Sources 1]
+"afx_ini" = 1,vc98\mfc\src\afx.ini,,,,2000-06-13,,,OLDER,,,,,,,657,,,,,
+"afxabort_cpp" = 1,vc98\mfc\src\afxabort.cpp,,,,2000-06-13,,,OLDER,,,,,,,743,,,,,
+"afxasert_cpp" = 1,vc98\mfc\src\afxasert.cpp,,,,2003-01-30,,,OLDER,,,,,,,3560,,,,,
+"afxcrit_cpp" = 1,vc98\mfc\src\afxcrit.cpp,,,,2000-06-13,,,OLDER,,,,,,,3613,,,,,
+"afxdbcs_cpp" = 1,vc98\mfc\src\afxdbcs.cpp,,,,2000-06-13,,,OLDER,,,,,,,925,,,,,
+"afximpl_h" = 1,vc98\mfc\src\afximpl.h,,,,2003-01-30,,,OLDER,,,,,,,19097,,,,,
+"afxinl1_cpp" = 1,vc98\mfc\src\afxinl1.cpp,,,,2000-06-13,,,OLDER,,,,,,,1232,,,,,
+"afxinl2_cpp" = 1,vc98\mfc\src\afxinl2.cpp,,,,2000-06-13,,,OLDER,,,,,,,723,,,,,
+"afxinl3_cpp" = 1,vc98\mfc\src\afxinl3.cpp,,,,2000-06-13,,,OLDER,,,,,,,723,,,,,
+"afxmem_cpp" = 1,vc98\mfc\src\afxmem.cpp,,,,2003-01-30,,,OLDER,,,,,,,10293,,,,,
+"afxstate_cpp" = 1,vc98\mfc\src\afxstate.cpp,,,,2003-01-30,,,OLDER,,,,,,,6921,,,,,
+"afxls_cpp" = 1,vc98\mfc\src\afxtls.cpp,,,,2003-01-30,,,OLDER,,,,,,,12647,,,,,
+"afxtrace_cpp" = 1,vc98\mfc\src\afxtrace.cpp,,,,2000-06-13,,,OLDER,,,,,,,10973,,,,,
+"app3d_cpp" = 1,vc98\mfc\src\app3d.cpp,,,,2000-06-13,,,OLDER,,,,,,,4310,,,,,
+"app3ds_cpp" = 1,vc98\mfc\src\app3ds.cpp,,,,2000-06-13,,,OLDER,,,,,,,2607,,,,,
+"appcore_cpp" = 1,vc98\mfc\src\appcore.cpp,,,,2000-06-13,,,OLDER,,,,,,,16295,,,,,
+"appdlg_cpp" = 1,vc98\mfc\src\appdlg.cpp,,,,2000-06-13,,,OLDER,,,,,,,1442,,,,,
+"appgray_cpp" = 1,vc98\mfc\src\appgray.cpp,,,,2000-06-13,,,OLDER,,,,,,,1722,,,,,
+"apphelp_cpp" = 1,vc98\mfc\src\apphelp.cpp,,,,2003-01-30,,,OLDER,,,,,,,3160,,,,,
+"apphelpx_cpp" = 1,vc98\mfc\src\apphelpx.cpp,,,,2000-06-13,,,OLDER,,,,,,,2012,,,,,
+
+[VC - MFC Sources 2]
+"appinit_cpp" = 1,vc98\mfc\src\appinit.cpp,,,,2003-01-30,,,OLDER,,,,,,,5061,,,,,
+"appmodul_cpp" = 1,vc98\mfc\src\appmodul.cpp,,,,2000-06-13,,,OLDER,,,,,,,2196,,,,,
+"appprnt_cpp" = 1,vc98\mfc\src\appprnt.cpp,,,,2003-01-30,,,OLDER,,,,,,,4754,,,,,
+"appterm_cpp" = 1,vc98\mfc\src\appterm.cpp,,,,2000-06-13,,,OLDER,,,,,,,2268,,,,,
+"appui_cpp" = 1,vc98\mfc\src\appui.cpp,,,,2000-06-13,,,OLDER,,,,,,,3903,,,,,
+"appui2_cpp" = 1,vc98\mfc\src\appui2.cpp,,,,2003-01-30,,,OLDER,,,,,,,6428,,,,,
+"appui3_cpp" = 1,vc98\mfc\src\appui3.cpp,,,,2000-06-13,,,OLDER,,,,,,,9040,,,,,
+"arccore_cpp" = 1,vc98\mfc\src\arccore.cpp,,,,2003-01-30,,,ALWAYS,,,,,,,20864,,,,,
+"arcex_cpp" = 1,vc98\mfc\src\arcex.cpp,,,,2003-01-30,,,OLDER,,,,,,,2529,,,,,
+"arcobj_cpp" = 1,vc98\mfc\src\arcobj.cpp,,,,2003-01-30,,,OLDER,,,,,,,11034,,,,,
+"arcstrm_cpp" = 1,vc98\mfc\src\arcstrm.cpp,,,,2003-01-30,,,OLDER,,,,,,,3457,,,,,
+"array_b_cpp" = 1,vc98\mfc\src\array_b.cpp,,,,2003-01-30,,,OLDER,,,,,,,7441,,,,,
+"array_d_cpp" = 1,vc98\mfc\src\array_d.cpp,,,,2003-01-30,,,OLDER,,,,,,,7880,,,,,
+"array_o_cpp" = 1,vc98\mfc\src\array_o.cpp,,,,2003-01-30,,,OLDER,,,,,,,7524,,,,,
+"array_p_cpp" = 1,vc98\mfc\src\array_p.cpp,,,,2003-01-30,,,OLDER,,,,,,,7020,,,,,
+"array_s_cpp" = 1,vc98\mfc\src\array_s.cpp,,,,2003-01-30,,,OLDER,,,,,,,8991,,,,,
+"array_u_cpp" = 1,vc98\mfc\src\array_u.cpp,,,,2003-01-30,,,OLDER,,,,,,,7015,,,,,
+"array_w_cpp" = 1,vc98\mfc\src\array_w.cpp,,,,2003-01-30,,,OLDER,,,,,,,7834,,,,,
+"auxdata_cpp" = 1,vc98\mfc\src\auxdata.cpp,,,,2000-06-13,,,OLDER,,,,,,,4211,,,,,
+
+[VC - MFC Sources 3]
+"barcore_cpp" = 1,vc98\mfc\src\barcore.cpp,,,,2000-06-13,,,OLDER,,,,,,,26080,,,,,
+"bardlg_cpp" = 1,vc98\mfc\src\bardlg.cpp,,,,2000-06-13,,,OLDER,,,,,,,3969,,,,,
+"bardock_cpp" = 1,vc98\mfc\src\bardock.cpp,,,,2000-06-13,,,OLDER,,,,,,,24660,,,,,
+"barstat_cpp" = 1,vc98\mfc\src\barstat.cpp,,,,2000-06-13,,,OLDER,,,,,,,19318,,,,,
+"bartool_cpp" = 1,vc98\mfc\src\bartool.cpp,,,,2000-06-13,,,OLDER,,,,,,,40038,,,,,
+"ccdata_cpp_1" = 1,vc98\mfc\src\ccdata.cpp,,,,2000-06-13,,,OLDER,,,,,,,3592,,,,,
+"cmdtarg_cpp" = 1,vc98\mfc\src\cmdtarg.cpp,,,,2000-06-13,,,OLDER,,,,,,,21659,,,,,
+"ctlcache_cpp" = 1,vc98\mfc\src\ctlcache.cpp,,,,2000-06-13,,,OLDER,,,,,,,3083,,,,,
+"ctlconn_cpp" = 1,vc98\mfc\src\ctlconn.cpp,,,,2000-06-13,,,OLDER,,,,,,,6678,,,,,
+"ctlcore_cpp" = 1,vc98\mfc\src\ctlcore.cpp,,,,2003-01-30,,,OLDER,,,,,,,51482,,,,,
+"ctldata_cpp" = 1,vc98\mfc\src\ctldata.cpp,,,,2000-06-13,,,OLDER,,,,,,,11334,,,,,
+"ctlevent_cpp" = 1,vc98\mfc\src\ctlevent.cpp,,,,2000-06-13,,,OLDER,,,,,,,15994,,,,,
+"ctlfont_cpp" = 1,vc98\mfc\src\ctlfont.cpp,,,,2000-06-13,,,OLDER,,,,,,,6289,,,,,
+"ctlframe_cpp" = 1,vc98\mfc\src\ctlframe.cpp,,,,2004-01-28,,,OLDER,,,,,,,2220,,,,,
+"ctlimpl_h" = 1,vc98\mfc\src\ctlimpl.h,,,,2000-06-13,,,OLDER,,,,,,,14120,,,,,
+"ctlinl_cpp" = 1,vc98\mfc\src\ctlinl.cpp,,,,2000-06-13,,,OLDER,,,,,,,787,,,,,
+"ctlinplc_cpp" = 1,vc98\mfc\src\ctlinplc.cpp,,,,2000-06-13,,,ALWAYS,,,,,,,16169,,,,,
+"ctlintl_cpp" = 1,vc98\mfc\src\ctlintl.cpp,,,,2000-06-13,,,OLDER,,,,,,,617,,,,,
+
+[VC - MFC Sources 4]
+"ctllic_cpp" = 1,vc98\mfc\src\ctllic.cpp,,,,2003-01-30,,,OLDER,,,,,,,2213,,,,,
+"ctlmodul_cpp" = 1,vc98\mfc\src\ctlmodul.cpp,,,,2000-06-13,,,OLDER,,,,,,,1261,,,,,
+"ctlnownd_cpp" = 1,vc98\mfc\src\ctlnownd.cpp,,,,2000-06-13,,,OLDER,,,,,,,11542,,,,,
+"ctlobj_cpp" = 1,vc98\mfc\src\ctlobj.cpp,,,,2000-06-13,,,OLDER,,,,,,,10766,,,,,
+"ctlpbag_cpp" = 1,vc98\mfc\src\ctlpbag.cpp,,,,2000-06-13,,,OLDER,,,,,,,13239,,,,,
+"ctlpict_cpp" = 1,vc98\mfc\src\ctlpict.cpp,,,,2000-06-13,,,OLDER,,,,,,,4718,,,,,
+"ctlppg_cpp" = 1,vc98\mfc\src\ctlppg.cpp,,,,2004-01-28,,,OLDER,,,,,,,38530,,,,,
+"ctlprop_cpp" = 1,vc98\mfc\src\ctlprop.cpp,,,,2000-06-13,,,OLDER,,,,,,,37328,,,,,
+"ctlpropx_cpp" = 1,vc98\mfc\src\ctlpropx.cpp,,,,2000-06-13,,,OLDER,,,,,,,29999,,,,,
+"ctlpset_cpp" = 1,vc98\mfc\src\ctlpset.cpp,,,,2003-01-30,,,OLDER,,,,,,,24699,,,,,
+"ctlpstg_cpp" = 1,vc98\mfc\src\ctlpstg.cpp,,,,2000-06-13,,,OLDER,,,,,,,6087,,,,,
+"ctlpstm_cpp" = 1,vc98\mfc\src\ctlpstm.cpp,,,,2000-06-13,,,OLDER,,,,,,,5522,,,,,
+"ctlquick_cpp" = 1,vc98\mfc\src\ctlquick.cpp,,,,2000-06-13,,,OLDER,,,,,,,4189,,,,,
+"ctlrefl_cpp" = 1,vc98\mfc\src\ctlrefl.cpp,,,,2000-06-13,,,OLDER,,,,,,,3709,,,,,
+"ctlreg_cpp" = 1,vc98\mfc\src\ctlreg.cpp,,,,2000-06-13,,,OLDER,,,,,,,15070,,,,,
+"ctltrack_cpp" = 1,vc98\mfc\src\ctltrack.cpp,,,,2000-06-13,,,OLDER,,,,,,,9556,,,,,
+"ctlview_cpp" = 1,vc98\mfc\src\ctlview.cpp,,,,2000-06-13,,,OLDER,,,,,,,9356,,,,,
+"daocore_cpp" = 1,vc98\mfc\src\daocore.cpp,,,,2003-01-30,,,OLDER,,,,,,,135453,,,,,
+"daodfx_cpp" = 1,vc98\mfc\src\daodfx.cpp,,,,2003-01-30,,,OLDER,,,,,,,35703,,,,,
+"daoimpl_h" = 1,vc98\mfc\src\daoimpl.h,,,,2000-06-13,,,OLDER,,,,,,,1000,,,,,
+
+[VC - MFC Sources 5]
+"daoview_cpp" = 1,vc98\mfc\src\daoview.cpp,,,,2000-06-13,,,OLDER,,,,,,,18464,,,,,
+"dbcore_cpp" = 1,vc98\mfc\src\dbcore.cpp,,,,2003-01-30,,,OLDER,,,,,,,115208,,,,,
+"dbflt_cpp" = 1,vc98\mfc\src\dbflt.cpp,,,,2000-06-13,,,OLDER,,,,,,,8511,,,,,
+"dbimpl_h" = 1,vc98\mfc\src\dbimpl.h,,,,2000-06-13,,,OLDER,,,,,,,1034,,,,,
+"dblong_cpp" = 1,vc98\mfc\src\dblong.cpp,,,,2000-06-13,,,OLDER,,,,,,,1572,,,,,
+"dbrfx_cpp" = 1,vc98\mfc\src\dbrfx.cpp,,,,2003-01-30,,,OLDER,,,,,,,91269,,,,,
+"dbvar_cpp" = 1,vc98\mfc\src\dbvar.cpp,,,,2000-06-13,,,OLDER,,,,,,,1350,,,,,
+"dbview_cpp" = 1,vc98\mfc\src\dbview.cpp,,,,2000-06-13,,,OLDER,,,,,,,16037,,,,,
+"dcmeta_cpp" = 1,vc98\mfc\src\dcmeta.cpp,,,,2003-01-30,,,OLDER,,,,,,,9950,,,,,
+"dcprev_cpp" = 1,vc98\mfc\src\dcprev.cpp,,,,2000-06-13,,,OLDER,,,,,,,26297,,,,,
+"dispimpl_h" = 1,vc98\mfc\src\dispimpl.h,,,,2004-01-28,,,OLDER,,,,,,,1952,,,,,
+"dlgclr_cpp" = 1,vc98\mfc\src\dlgclr.cpp,,,,2000-06-13,,,OLDER,,,,,,,3782,,,,,
+"dlgcomm_cpp_1" = 1,vc98\mfc\src\dlgcomm.cpp,,,,2000-06-13,,,OLDER,,,,,,,4414,,,,,
+"dlgcore_cpp" = 1,vc98\mfc\src\dlgcore.cpp,,,,2000-06-13,,,ALWAYS,,,,,,,23558,,,,,
+"dlgdata_cpp" = 1,vc98\mfc\src\dlgdata.cpp,,,,2000-06-13,,,OLDER,,,,,,,18690,,,,,
+"dlgfile_cpp" = 1,vc98\mfc\src\dlgfile.cpp,,,,2000-06-13,,,OLDER,,,,,,,12649,,,,,
+"dlgfloat_cpp" = 1,vc98\mfc\src\dlgfloat.cpp,,,,2000-06-13,,,OLDER,,,,,,,3698,,,,,
+"dlgfnt_cpp" = 1,vc98\mfc\src\dlgfnt.cpp,,,,2003-01-30,,,OLDER,,,,,,,6971,,,,,
+"dlgfr_cpp" = 1,vc98\mfc\src\dlgfr.cpp,,,,2000-06-13,,,OLDER,,,,,,,3580,,,,,
+"dlgprnt_cpp" = 1,vc98\mfc\src\dlgprnt.cpp,,,,2000-06-13,,,ALWAYS,,,,,,,10952,,,,,
+
+[VC - MFC Sources 6]
+"dlgprop_cpp" = 1,vc98\mfc\src\dlgprop.cpp,,,,2003-01-30,,,OLDER,,,,,,,41264,,,,,
+"dlgtempl_cpp" = 1,vc98\mfc\src\dlgtempl.cpp,,,,2003-01-30,,,OLDER,,,,,,,10451,,,,,
+"dlldb_cpp" = 1,vc98\mfc\src\dlldb.cpp,,,,2004-01-28,,,OLDER,,,,,,,4193,,,,,
+"dllinit_cpp" = 1,vc98\mfc\src\dllinit.cpp,,,,2004-01-28,,,OLDER,,,,,,,21681,,,,,
+"dllmodul_cpp" = 1,vc98\mfc\src\dllmodul.cpp,,,,2000-06-13,,,OLDER,,,,,,,6427,,,,,
+"dllnet_cpp" = 1,vc98\mfc\src\dllnet.cpp,,,,2004-01-28,,,OLDER,,,,,,,3837,,,,,
+"dllole_cpp" = 1,vc98\mfc\src\dllole.cpp,,,,2004-01-28,,,OLDER,,,,,,,8055,,,,,
+"doccore_cpp" = 1,vc98\mfc\src\doccore.cpp,,,,2003-01-30,,,OLDER,,,,,,,23622,,,,,
+"dockcont_cpp" = 1,vc98\mfc\src\dockcont.cpp,,,,2000-06-13,,,OLDER,,,,,,,18187,,,,,
+"dockstat_cpp" = 1,vc98\mfc\src\dockstat.cpp,,,,2004-01-28,,,OLDER,,,,,,,20527,,,,,
+"docmapi_cpp" = 1,vc98\mfc\src\docmapi.cpp,,,,2003-01-30,,,OLDER,,,,,,,7137,,,,,
+"docmgr_cpp" = 1,vc98\mfc\src\docmgr.cpp,,,,2003-01-30,,,OLDER,,,,,,,27675,,,,,
+"docmulti_cpp" = 1,vc98\mfc\src\docmulti.cpp,,,,2003-01-30,,,OLDER,,,,,,,6312,,,,,
+"docsingl_cpp" = 1,vc98\mfc\src\docsingl.cpp,,,,2000-06-13,,,OLDER,,,,,,,6465,,,,,
+"doctempl_cpp" = 1,vc98\mfc\src\doctempl.cpp,,,,2000-06-13,,,OLDER,,,,,,,12065,,,,,
+"dumpcont_cpp" = 1,vc98\mfc\src\dumpcont.cpp,,,,2003-01-30,,,OLDER,,,,,,,5764,,,,,
+"dumpfit_cpp" = 1,vc98\mfc\src\dumpflt.cpp,,,,2000-06-13,,,OLDER,,,,,,,1142,,,,,
+"dumpinit_cpp" = 1,vc98\mfc\src\dumpinit.cpp,,,,2003-01-30,,,OLDER,,,,,,,4429,,,,,
+"dumpout_cpp" = 1,vc98\mfc\src\dumpout.cpp,,,,2000-06-13,,,OLDER,,,,,,,1609,,,,,
+"elements_h" = 1,vc98\mfc\src\elements.h,,,,2000-06-13,,,OLDER,,,,,,,2488,,,,,
+
+[VC - MFC Sources 7]
+"except_cpp" = 1,vc98\mfc\src\except.cpp,,,,2003-01-30,,,OLDER,,,,,,,9060,,,,,
+"filecore_cpp" = 1,vc98\mfc\src\filecore.cpp,,,,2003-01-30,,,OLDER,,,,,,,19207,,,,,
+"filefind_cpp" = 1,vc98\mfc\src\filefind.cpp,,,,2003-01-30,,,OLDER,,,,,,,7617,,,,,
+"dilelist_cpp" = 1,vc98\mfc\src\filelist.cpp,,,,2003-01-30,,,OLDER,,,,,,,9332,,,,,
+"dilemem_cpp" = 1,vc98\mfc\src\filemem.cpp,,,,2003-01-30,,,OLDER,,,,,,,8378,,,,,
+"dileshrd_cpp" = 1,vc98\mfc\src\fileshrd.cpp,,,,2003-01-30,,,OLDER,,,,,,,2648,,,,,
+"filest_cpp" = 1,vc98\mfc\src\filest.cpp,,,,2003-01-30,,,OLDER,,,,,,,7982,,,,,
+"filetxt_cpp" = 1,vc98\mfc\src\filetxt.cpp,,,,2003-01-30,,,OLDER,,,,,,,7896,,,,,
+"filex_cpp" = 1,vc98\mfc\src\filex.cpp,,,,2003-01-30,,,OLDER,,,,,,,9197,,,,,
+"indicate_rc" = 1,vc98\mfc\src\indicate.rc,,,,2000-06-13,,,OLDER,,,,,,,1163,,,,,
+"inet_cpp" = 1,vc98\mfc\src\inet.cpp,,,,2003-01-30,,,OLDER,,,,,,,72980,,,,,
+"inetcall_cpp" = 1,vc98\mfc\src\inetcall.cpp,,,,2000-06-13,,,OLDER,,,,,,,2726,,,,,
+"isapi_cpp" = 1,vc98\mfc\src\isapi.cpp,,,,2004-01-28,,,OLDER,,,,,,,56656,,,,,
+"isapimix_cpp" = 1,vc98\mfc\src\isapimix.cpp,,,,2000-06-13,,,OLDER,,,,,,,1368,,,,,
+"list_o_cpp" = 1,vc98\mfc\src\list_o.cpp,,,,2003-01-30,,,OLDER,,,,,,,9661,,,,,
+"list_p_cpp" = 1,vc98\mfc\src\list_p.cpp,,,,2003-01-30,,,OLDER,,,,,,,9100,,,,,
+"list_s_cpp" = 1,vc98\mfc\src\list_s.cpp,,,,2003-01-30,,,OLDER,,,,,,,10474,,,,,
+
+[VC - MFC Sources 8]
+"map_pp_cpp" = 1,vc98\mfc\src\map_pp.cpp,,,,2003-01-30,,,OLDER,,,,,,,7816,,,,,
+"map_pw_cpp" = 1,vc98\mfc\src\map_pw.cpp,,,,2003-01-30,,,OLDER,,,,,,,7417,,,,,
+"map_so_cpp" = 1,vc98\mfc\src\map_so.cpp,,,,2003-01-30,,,OLDER,,,,,,,8936,,,,,
+"map_sp_cpp" = 1,vc98\mfc\src\map_sp.cpp,,,,2003-01-30,,,OLDER,,,,,,,8163,,,,,
+"map_ss_cpp" = 1,vc98\mfc\src\map_ss.cpp,,,,2003-01-30,,,OLDER,,,,,,,9127,,,,,
+"map_wo_cpp" = 1,vc98\mfc\src\map_wo.cpp,,,,2003-01-30,,,OLDER,,,,,,,8183,,,,,
+"map_wp_cpp" = 1,vc98\mfc\src\map_wp.cpp,,,,2003-01-30,,,OLDER,,,,,,,7414,,,,,
+"mfcdb_rc_1" = 1,vc98\mfc\src\mfcdb.rc,,,,2004-02-27,,,OLDER,,,,,,,3200,,,,,
+"mfcdll_rc_1" = 1,vc98\mfc\src\mfcdll.rc,,,,2004-02-27,,,OLDER,,,,,,,3707,,,,,
+"mfcintl_rc_1" = 1,vc98\mfc\src\mfcintl.rc,,,,2000-06-13,,,OLDER,,,,,,,2564,,,,,
+"mfcnet_rc_1" = 1,vc98\mfc\src\mfcnet.rc,,,,2004-02-27,,,OLDER,,,,,,,3133,,,,,
+"mfcole_rc_1" = 1,vc98\mfc\src\mfcole.rc,,,,2004-02-27,,,OLDER,,,,,,,3322,,,,,
+
+[VC - MFC Sources 9]
+"mtcore_cpp" = 1,vc98\mfc\src\mtcore.cpp,,,,2000-06-13,,,OLDER,,,,,,,1921,,,,,
+"mtex_cpp" = 1,vc98\mfc\src\mtex.cpp,,,,2003-01-30,,,OLDER,,,,,,,5935,,,,,
+"nolib_cpp" = 1,vc98\mfc\src\nolib.cpp,,,,2000-06-13,,,OLDER,,,,,,,4033,,,,,
+"objcore_cpp" = 1,vc98\mfc\src\objcore.cpp,,,,2000-06-13,,,OLDER,,,,,,,6274,,,,,
+"occcont_cpp" = 1,vc98\mfc\src\occcont.cpp,,,,2000-06-13,,,OLDER,,,,,,,19328,,,,,
+"occddx_cpp" = 1,vc98\mfc\src\occddx.cpp,,,,2000-06-13,,,OLDER,,,,,,,3884,,,,,
+"occdlg_cpp" = 1,vc98\mfc\src\occdlg.cpp,,,,2000-06-13,,,OLDER,,,,,,,16245,,,,,
+"occevent_cpp" = 1,vc98\mfc\src\occevent.cpp,,,,2000-06-13,,,OLDER,,,,,,,6021,,,,,
+"occimpl_h" = 1,vc98\mfc\src\occimpl.h,,,,2000-06-13,,,OLDER,,,,,,,17985,,,,,
+"occlock_cpp" = 1,vc98\mfc\src\occlock.cpp,,,,2000-06-13,,,OLDER,,,,,,,3498,,,,,
+"occmgr_cpp" = 1,vc98\mfc\src\occmgr.cpp,,,,2000-06-13,,,OLDER,,,,,,,19451,,,,,
+"occsite_cpp" = 1,vc98\mfc\src\occsite.cpp,,,,2003-01-30,,,OLDER,,,,,,,89786,,,,,
+"ocdb_h" = 1,vc98\mfc\src\ocdb.h,,,,2000-06-13,,,OLDER,,,,,,,46177,,,,,
+"ocdbid_h" = 1,vc98\mfc\src\ocdbid.h,,,,2000-06-13,,,OLDER,,,,,,,12720,,,,,
+"oleasmon_cpp" = 1,vc98\mfc\src\oleasmon.cpp,,,,2003-01-30,,,OLDER,,,,,,,16734,,,,,
+"olebar_cpp" = 1,vc98\mfc\src\olebar.cpp,,,,2000-06-13,,,OLDER,,,,,,,4881,,,,,
+"olebind_h" = 1,vc98\mfc\src\olebind.h,,,,2000-06-13,,,OLDER,,,,,,,2811,,,,,
+"olecall_cpp" = 1,vc98\mfc\src\olecall.cpp,,,,2000-06-13,,,OLDER,,,,,,,2676,,,,,
+"olecli1_cpp" = 1,vc98\mfc\src\olecli1.cpp,,,,2003-01-30,,,OLDER,,,,,,,61600,,,,,
+
+[VC - MFC Sources 10]
+"olecli2_cpp" = 1,vc98\mfc\src\olecli2.cpp,,,,2000-06-13,,,OLDER,,,,,,,41023,,,,,
+"olecli3_cpp" = 1,vc98\mfc\src\olecli3.cpp,,,,2000-06-13,,,OLDER,,,,,,,17428,,,,,
+"olecnvrt_cpp" = 1,vc98\mfc\src\olecnvrt.cpp,,,,2003-01-30,,,OLDER,,,,,,,6297,,,,,
+"oleconn_cpp" = 1,vc98\mfc\src\oleconn.cpp,,,,2000-06-13,,,OLDER,,,,,,,16217,,,,,
+"oledata_cpp" = 1,vc98\mfc\src\oledata.cpp,,,,2000-06-13,,,OLDER,,,,,,,1283,,,,,
+"oledisp1_cpp" = 1,vc98\mfc\src\oledisp1.cpp,,,,2003-01-30,,,OLDER,,,,,,,44970,,,,,
+"oledisp2_cpp" = 1,vc98\mfc\src\oledisp2.cpp,,,,2000-06-13,,,OLDER,,,,,,,13012,,,,,
+"oledlgs1_cpp" = 1,vc98\mfc\src\oledlgs1.cpp,,,,2003-01-30,,,OLDER,,,,,,,38891,,,,,
+"oledlgs2_cpp" = 1,vc98\mfc\src\oledlgs2.cpp,,,,2000-06-13,,,ALWAYS,,,,,,,4660,,,,,
+"oledlgs3_cpp" = 1,vc98\mfc\src\oledlgs3.cpp,,,,2000-06-13,,,OLDER,,,,,,,11175,,,,,
+"oledll_cpp" = 1,vc98\mfc\src\oledll.cpp,,,,2000-06-13,,,OLDER,,,,,,,3753,,,,,
+"oledobj1_cpp" = 1,vc98\mfc\src\oledobj1.cpp,,,,2000-06-13,,,OLDER,,,,,,,8474,,,,,
+"oleobj2_cpp" = 1,vc98\mfc\src\oledobj2.cpp,,,,2000-06-13,,,OLDER,,,,,,,21460,,,,,
+"oledoc1_cpp" = 1,vc98\mfc\src\oledoc1.cpp,,,,2000-06-13,,,OLDER,,,,,,,21824,,,,,
+"oledoc2_cpp" = 1,vc98\mfc\src\oledoc2.cpp,,,,2000-06-13,,,OLDER,,,,,,,1890,,,,,
+"oledocip_cpp" = 1,vc98\mfc\src\oledocip.cpp,,,,2000-06-13,,,OLDER,,,,,,,6085,,,,,
+"oledocob_cpp" = 1,vc98\mfc\src\oledocob.cpp,,,,2000-06-13,,,OLDER,,,,,,,25709,,,,,
+"oledoctg_cpp" = 1,vc98\mfc\src\oledoctg.cpp,,,,2003-01-30,,,OLDER,,,,,,,6800,,,,,
+"oledocvw_cpp" = 1,vc98\mfc\src\oledocvw.cpp,,,,2000-06-13,,,OLDER,,,,,,,12059,,,,,
+"oledrop1_cpp" = 1,vc98\mfc\src\oledrop1.cpp,,,,2000-06-13,,,OLDER,,,,,,,7447,,,,,
+
+[VC - MFC Sources 11]
+"oledrop2_cpp" = 1,vc98\mfc\src\oledrop2.cpp,,,,2000-06-13,,,OLDER,,,,,,,14585,,,,,
+"oleenum_cpp" = 1,vc98\mfc\src\oleenum.cpp,,,,2000-06-13,,,OLDER,,,,,,,4721,,,,,
+"oleexp_cpp" = 1,vc98\mfc\src\oleexp.cpp,,,,2000-06-13,,,OLDER,,,,,,,1214,,,,,
+"olefact_cpp" = 1,vc98\mfc\src\olefact.cpp,,,,2000-06-13,,,OLDER,,,,,,,14848,,,,,
+"oleimpl2_h" = 1,vc98\mfc\src\oleimpl2.h,,,,2000-06-13,,,OLDER,,,,,,,11480,,,,,
+"oleinit_cpp" = 1,vc98\mfc\src\oleinit.cpp,,,,2000-06-13,,,OLDER,,,,,,,5706,,,,,
+"oleipfrm_cpp" = 1,vc98\mfc\src\oleipfrm.cpp,,,,2000-06-13,,,OLDER,,,,,,,18212,,,,,
+"olelink_cpp" = 1,vc98\mfc\src\olelink.cpp,,,,2000-06-13,,,OLDER,,,,,,,21752,,,,,
+"olelock_cpp" = 1,vc98\mfc\src\olelock.cpp,,,,2000-06-13,,,OLDER,,,,,,,3031,,,,,
+"olemisc_cpp" = 1,vc98\mfc\src\olemisc.cpp,,,,2003-01-30,,,OLDER,,,,,,,40290,,,,,
+"olemon_cpp" = 1,vc98\mfc\src\olemon.cpp,,,,2003-01-30,,,OLDER,,,,,,,8657,,,,,
+"olemsgf_cpp" = 1,vc98\mfc\src\olemsgf.cpp,,,,2000-06-13,,,OLDER,,,,,,,9346,,,,,
+"olepset_cpp" = 1,vc98\mfc\src\olepset.cpp,,,,2000-06-13,,,OLDER,,,,,,,39234,,,,,
+"olereg_cpp" = 1,vc98\mfc\src\olereg.cpp,,,,2000-06-13,,,OLDER,,,,,,,15864,,,,,
+"olestrm_cpp" = 1,vc98\mfc\src\olestrm.cpp,,,,2003-01-30,,,OLDER,,,,,,,11872,,,,,
+"olesvr1_cpp" = 1,vc98\mfc\src\olesvr1.cpp,,,,2000-06-13,,,OLDER,,,,,,,77093,,,,,
+"olesvr2_cpp" = 1,vc98\mfc\src\olesvr2.cpp,,,,2000-06-13,,,OLDER,,,,,,,37184,,,,,
+"oletsvr_cpp" = 1,vc98\mfc\src\oletsvr.cpp,,,,2000-06-13,,,OLDER,,,,,,,5389,,,,,
+
+[VC - MFC Sources 12]
+"oletyplb_cpp" = 1,vc98\mfc\src\oletyplb.cpp,,,,2000-06-13,,,OLDER,,,,,,,5554,,,,,
+"oleui1_cpp" = 1,vc98\mfc\src\oleui1.cpp,,,,2000-06-13,,,OLDER,,,,,,,4663,,,,,
+"oleui2_cpp" = 1,vc98\mfc\src\oleui2.cpp,,,,2000-06-13,,,OLDER,,,,,,,4219,,,,,
+"oleunk_cpp" = 1,vc98\mfc\src\oleunk.cpp,,,,2003-01-30,,,OLDER,,,,,,,13093,,,,,
+"olevar_cpp" = 1,vc98\mfc\src\olevar.cpp,,,,2003-01-30,,,OLDER,,,,,,,70167,,,,,
+"oleverb_cpp" = 1,vc98\mfc\src\oleverb.cpp,,,,2003-01-30,,,OLDER,,,,,,,5497,,,,,
+"pchmark_bin" = 1,vc98\mfc\src\pchmark.bin,,,,2000-07-15,,,OLDER,,,,,,,1,,,,,
+"plex_cpp" = 1,vc98\mfc\src\plex.cpp,,,,2003-01-30,,,OLDER,,,,,,,1240,,,,,
+"ppgcolor_cpp" = 1,vc98\mfc\src\ppgcolor.cpp,,,,2000-06-13,,,OLDER,,,,,,,18780,,,,,
+"ppgfont_cpp" = 1,vc98\mfc\src\ppgfont.cpp,,,,2000-06-13,,,OLDER,,,,,,,27440,,,,,
+"ppgpict_cpp" = 1,vc98\mfc\src\ppgpict.cpp,,,,2000-06-13,,,OLDER,,,,,,,11384,,,,,
+"ppgstock_cpp" = 1,vc98\mfc\src\ppgstock.cpp,,,,2000-06-13,,,OLDER,,,,,,,6544,,,,,
+"prompts_rc" = 1,vc98\mfc\src\prompts.rc,,,,2000-06-13,,,OLDER,,,,,,,7118,,,,,
+"sockcore_cpp" = 1,vc98\mfc\src\sockcore.cpp,,,,2003-01-30,,,OLDER,,,,,,,27531,,,,,
+"sockimpl_h" = 1,vc98\mfc\src\sockimpl.h,,,,2000-06-13,,,OLDER,,,,,,,1094,,,,,
+"stdafx_cpp_1" = 1,vc98\mfc\src\stdafx.cpp,,,,2000-06-13,,,OLDER,,,,,,,651,,,,,
+"stdafx_h_1" = 1,vc98\mfc\src\stdafx.h,,,,2000-06-13,,,OLDER,,,,,,,5188,,,,,
+"strcore_cpp" = 1,vc98\mfc\src\strcore.cpp,,,,2003-01-30,,,OLDER,,,,,,,17319,,,,,
+"strex_cpp" = 1,vc98\mfc\src\strex.cpp,,,,2003-01-30,,,OLDER,,,,,,,22521,,,,,
+
+[VC - MFC Sources 13]
+"thrdcore_cpp_1" = 1,vc98\mfc\src\thrdcore.cpp,,,,2000-06-13,,,OLDER,,,,,,,24383,,,,,
+"timecore_cpp" = 1,vc98\mfc\src\timecore.cpp,,,,2003-01-30,,,OLDER,,,,,,,8182,,,,,
+"tooltip_cpp" = 1,vc98\mfc\src\tooltip.cpp,,,,2003-01-30,,,OLDER,,,,,,,14577,,,,,
+"trckrect_cpp" = 1,vc98\mfc\src\trckrect.cpp,,,,2000-06-13,,,OLDER,,,,,,,21334,,,,,
+"validadd_cpp" = 1,vc98\mfc\src\validadd.cpp,,,,2003-01-30,,,OLDER,,,,,,,1821,,,,,
+"viewcmn_cpp" = 1,vc98\mfc\src\viewcmn.cpp,,,,2000-06-13,,,OLDER,,,,,,,3025,,,,,
+"viewcore_cpp" = 1,vc98\mfc\src\viewcore.cpp,,,,2000-06-13,,,ALWAYS,,,,,,,14571,,,,,
+"viewedit_cpp" = 1,vc98\mfc\src\viewedit.cpp,,,,2000-06-13,,,OLDER,,,,,,,33724,,,,,
+"viewform_cpp" = 1,vc98\mfc\src\viewform.cpp,,,,2000-06-13,,,OLDER,,,,,,,7648,,,,,
+"viewprev_cpp" = 1,vc98\mfc\src\viewprev.cpp,,,,2003-01-30,,,OLDER,,,,,,,30848,,,,,
+"viewprnt_cpp" = 1,vc98\mfc\src\viewprnt.cpp,,,,2003-01-30,,,OLDER,,,,,,,11033,,,,,
+"viewrich_cpp" = 1,vc98\mfc\src\viewrich.cpp,,,,2000-06-13,,,OLDER,,,,,,,57654,,,,,
+"ciewscrl_cpp" = 1,vc98\mfc\src\viewscrl.cpp,,,,2003-01-30,,,OLDER,,,,,,,27376,,,,,
+"winbtn_cpp" = 1,vc98\mfc\src\winbtn.cpp,,,,2000-06-13,,,OLDER,,,,,,,4882,,,,,
+"wincore_cpp" = 1,vc98\mfc\src\wincore.cpp,,,,2004-01-28,,,OLDER,,,,,,,109417,,,,,
+"winctrl1_cpp" = 1,vc98\mfc\src\winctrl1.cpp,,,,2000-06-13,,,OLDER,,,,,,,7264,,,,,
+"winctrl2_cpp" = 1,vc98\mfc\src\winctrl2.cpp,,,,2000-06-13,,,OLDER,,,,,,,33305,,,,,
+"winctrl3_cpp" = 1,vc98\mfc\src\winctrl3.cpp,,,,2003-01-30,,,OLDER,,,,,,,22819,,,,,
+"winctrl4_cpp" = 1,vc98\mfc\src\winctrl4.cpp,,,,2000-06-13,,,OLDER,,,,,,,5826,,,,,
+"winfrm_cpp" = 1,vc98\mfc\src\winfrm.cpp,,,,2003-01-30,,,ALWAYS,,,,,,,60176,,,,,
+
+[VC - MFC Sources 14]
+"winfrm2_cpp" = 1,vc98\mfc\src\winfrm2.cpp,,,,2000-06-13,,,OLDER,,,,,,,8166,,,,,
+"winfrmx_cpp" = 1,vc98\mfc\src\winfrmx.cpp,,,,2000-06-13,,,OLDER,,,,,,,10664,,,,,
+"wingdi_cpp" = 1,vc98\mfc\src\wingdi.cpp,,,,2000-06-13,,,OLDER,,,,,,,34146,,,,,
+"wingdix_cpp" = 1,vc98\mfc\src\wingdix.cpp,,,,2000-06-13,,,OLDER,,,,,,,9443,,,,,
+"winhand_cpp" = 1,vc98\mfc\src\winhand.cpp,,,,2000-06-13,,,OLDER,,,,,,,7428,,,,,
+"winhand__h" = 1,vc98\mfc\src\winhand_.h,,,,2000-06-13,,,OLDER,,,,,,,3480,,,,,
+"winmain_cpp" = 1,vc98\mfc\src\winmain.cpp,,,,2000-06-13,,,OLDER,,,,,,,1901,,,,,
+"winmdi_cpp" = 1,vc98\mfc\src\winmdi.cpp,,,,2004-01-28,,,OLDER,,,,,,,32990,,,,,
+"winmenu_cpp" = 1,vc98\mfc\src\winmenu.cpp,,,,2000-06-13,,,OLDER,,,,,,,3660,,,,,
+"winmini_cpp" = 1,vc98\mfc\src\winmini.cpp,,,,2000-06-13,,,OLDER,,,,,,,21652,,,,,
+"winocc_cpp" = 1,vc98\mfc\src\winocc.cpp,,,,2000-06-13,,,OLDER,,,,,,,11531,,,,,
+"winsplit_cpp" = 1,vc98\mfc\src\winsplit.cpp,,,,2000-06-13,,,OLDER,,,,,,,64028,,,,,
+"winstr_cpp" = 1,vc98\mfc\src\winstr.cpp,,,,2003-01-30,,,OLDER,,,,,,,2853,,,,,
+"winutil_cpp" = 1,vc98\mfc\src\winutil.cpp,,,,2000-06-13,,,OLDER,,,,,,,6040,,,,,
+"winctrl5_cpp" = 1,vc98\mfc\src\winctrl5.cpp,,,,2003-01-30,,,OLDER,,,,,,,23019,,,,,
+"winctrl6_cpp" = 1,vc98\mfc\src\winctrl6.cpp,,,,2000-06-13,,,OLDER,,,,,,,8435,,,,,
+"winctrl7_cpp" = 1,vc98\mfc\src\winctrl7.cpp,,,,2000-06-13,,,OLDER,,,,,,,1935,,,,,
+"fixalloc_cpp" = 1,vc98\mfc\src\fixalloc.cpp,,,,2003-01-30,,,OLDER,,,,,,,2049,,,,,
+"fixalloc_h" = 1,vc98\mfc\src\fixalloc.h,,,,2000-06-13,,,OLDER,,,,,,,2000,,,,,
+"oledoccl_cpp" = 1,vc98\mfc\src\oledoccl.cpp,,,,2000-06-13,,,OLDER,,,,,,,13537,,,,,
+"barcool_cpp" = 1,vc98\mfc\src\barcool.cpp,,,,2000-06-13,,,OLDER,,,,,,,9180,,,,,
+"viewhtml_cpp" = 1,vc98\mfc\src\viewhtml.cpp,,,,2000-06-13,,,OLDER,,,,,,,20290,,,,,
+"olevar1_cpp" = 1,vc98\mfc\src\olevar1.cpp,,,,2000-06-13,,,OLDER,,,,,,,1482,,,,,
+"dumpstak_cpp" = 1,vc98\mfc\src\dumpstak.cpp,,,,2003-01-30,,,OLDER,,,,,,,9667,,,,,
+"appui1_cpp" = 1,vc98\mfc\src\appui1.cpp,,,,2003-01-30,,,OLDER,,,,,,,5462,,,,,
+"viewoled_cpp" = 1,vc98\mfc\src\viewoled.cpp,,,,2000-06-13,,,OLDER,,,,,,,3089,,,,,
+
+[VC - MFC Source Intel]
+"mfc42_def_1" = 1,vc98\mfc\src\intel\mfc42.def,,,,2003-01-31,,,OLDER,,,,,,,409600,,,,,
+"mfc42_prf_2" = 1,vc98\mfc\src\mfc42.prf,,,,2004-02-27,,,OLDER,,,,,,,48586,,,,,
+"mfc42d_def" = 1,vc98\mfc\src\intel\mfc42d.def,,,,2003-01-31,,,OLDER,,,,,,,265735,,,,,
+"mfc42u_def_1" = 1,vc98\mfc\src\intel\mfc42u.def,,,,2003-01-31,,,OLDER,,,,,,,409041,,,,,
+"mfc42u_prf_2" = 1,vc98\mfc\src\mfc42u.prf,,,,2004-02-27,,,OLDER,,,,,,,32891,,,,,
+"mfco42d_def_1" = 1,vc98\mfc\src\intel\mfco42d.def,,,,2000-06-13,,,OLDER,,,,,,,187029,,,,,
+"mfco42ud_def_1" = 1,vc98\mfc\src\intel\mfco42ud.def,,,,2003-01-31,,,OLDER,,,,,,,186641,,,,,
+"mfc42ud_def" = 1,vc98\mfc\src\intel\mfc42ud.def,,,,2003-01-31,,,OLDER,,,,,,,265978,,,,,
+"mfcd42d_def" = 1,vc98\mfc\src\intel\mfcd42d.def,,,,2000-06-13,,,OLDER,,,,,,,41401,,,,,
+"mfcd42ud_def" = 1,vc98\mfc\src\intel\mfcd42ud.def,,,,2003-01-31,,,OLDER,,,,,,,41428,,,,,
+"mfcn42d_def" = 1,vc98\mfc\src\intel\mfcn42d.def,,,,2003-01-31,,,OLDER,,,,,,,6235,,,,,
+"mfcn42ud_def" = 1,vc98\mfc\src\intel\mfcn42ud.def,,,,2000-06-13,,,OLDER,,,,,,,6295,,,,,
+
+[vc MFC Ansi Static Libs]
+"nafxcw_lib" = 1,vc98\mfc\lib\nafxcw.lib,,,,2004-02-27,,,ALWAYS,,,,,,,8616148,,,,,
+"nafxcwd_lib" = 2,vc98\mfc\lib\nafxcwd.lib,,,,2004-02-27,,,ALWAYS,,,,,,,9938948,,,,,
+
+[vc MFC Ansi Static Lib Symb]
+"nafxcw_pdb" = 2,vc98\mfc\lib\nafxcw.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1306624,,,,,
+"nafxcwd_pdb" = 2,vc98\mfc\lib\nafxcwd.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1323008,,,,,
+
+[vc MFC Unicode Shared Libs]
+"mfc42u_lib" = 2,vc98\mfc\lib\mfc42u.lib,,,,2004-02-27,,,ALWAYS,,,,,,,2161464,,,,,
+"mfc42ud_lib" = 2,vc98\mfc\lib\mfc42ud.lib,,,,2004-02-27,,,ALWAYS,,,,,,,1508366,,,,,
+"mfcd42ud_lib" = 2,vc98\mfc\lib\mfcd42ud.lib,,,,2004-02-27,,,ALWAYS,,,,,,,237110,,,,,
+"mfcn42ud_lib" = 2,vc98\mfc\lib\mfcn42ud.lib,,,,2004-02-27,,,ALWAYS,,,,,,,35438,,,,,
+"mfco42ud_lib" = 2,vc98\mfc\lib\mfco42ud.lib,,,,2004-02-27,,,ALWAYS,,,,,,,1044796,,,,,
+"mfcs42u_lib" = 2,vc98\mfc\lib\mfcs42u.lib,,,,2004-02-27,,,ALWAYS,,,,,,,200108,,,,,
+"mfcs42u_pdb" = 2,vc98\mfc\lib\mfcs42u.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1110016,,,,,
+"mfcs42ud_lib" = 2,vc98\mfc\lib\mfcs42ud.lib,,,,2004-02-27,,,ALWAYS,,,,,,,206422,,,,,
+"mfcs42ud_pdb" = 2,vc98\mfc\lib\mfcs42ud.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1126400,,,,,
+
+[vc MFC Ansi Shared Libs]
+"mfc42_lib" = 2,vc98\mfc\lib\mfc42.lib,,,,2004-02-27,,,ALWAYS,,,,,,,2158228,,,,,
+"mfc42d_lib" = 2,vc98\mfc\lib\mfc42d.lib,,,,2004-02-27,,,ALWAYS,,,,,,,1502076,,,,,
+"mfcd42d_lib" = 2,vc98\mfc\lib\mfcd42d.lib,,,,2004-02-27,,,ALWAYS,,,,,,,236242,,,,,
+"mfcn42d_lib" = 2,vc98\mfc\lib\mfcn42d.lib,,,,2004-02-27,,,ALWAYS,,,,,,,34974,,,,,
+"mfco42d_lib" = 2,vc98\mfc\lib\mfco42d.lib,,,,2004-02-27,,,ALWAYS,,,,,,,1043972,,,,,
+"mfcs42_lib" = 2,vc98\mfc\lib\mfcs42.lib,,,,2004-02-27,,,ALWAYS,,,,,,,200120,,,,,
+"mfcs42_pdb" = 2,vc98\mfc\lib\mfcs42.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1110016,,,,,
+"mfcs42d_lib" = 2,vc98\mfc\lib\mfcs42d.lib,,,,2004-02-27,,,ALWAYS,,,,,,,204814,,,,,
+"mfcs42d_pdb" = 2,vc98\mfc\lib\mfcs42d.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1126400,,,,,
+
+[vc MFC Unicode Static Lib Symb]
+"uafxcw_pdb" = 2,vc98\mfc\lib\uafxcw.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1290240,,,,,
+"uafxcwd_pdb" = 2,vc98\mfc\lib\uafxcwd.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1314816,,,,,
+
+[vc MFC Unicode Static Libs]
+"uafxcw_lib" = 2,vc98\mfc\lib\uafxcw.lib,,,,2004-02-27,,,ALWAYS,,,,,,,8630332,,,,,
+"uafxcwd_lib" = 2,vc98\mfc\lib\uafxcwd.lib,,,,2004-02-27,,,ALWAYS,,,,,,,9915872,,,,,
+
+[VC - MFC OS Ansi Shared Lib Symbols]
+"mfc42d_map" = 2,vc98\debug\mfc42d.map,,,,2004-02-27,,,ALWAYS,,,,,,,818634,SYSTEM,,,,
+"mfc42d_pdb" = 2,vc98\debug\mfc42d.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,4280320,SYSTEM,,,,
+"mfcd42d_map" = 3,vc98\debug\mfcd42d.map,,,,2004-02-27,,,ALWAYS,,,,,,,293174,SYSTEM,,,,
+"mfcd42d_pdb" = 3,vc98\debug\mfcd42d.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,2379776,SYSTEM,,,,
+"mfcn42d_map" = 3,vc98\debug\mfcn42d.map,,,,2004-02-27,,,ALWAYS,,,,,,,115529,SYSTEM,,,,
+"mfcn42d_pdb" = 3,vc98\debug\mfcn42d.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1781760,SYSTEM,,,,
+"mfco42d_map" = 3,vc98\debug\mfco42d.map,,,,2004-02-27,,,ALWAYS,,,,,,,885953,SYSTEM,,,,
+"mfco42d_pdb" = 3,vc98\debug\mfco42d.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,4722688,SYSTEM,,,,
+"mfc42_map" = 3,vc98\debug\mfc42.map,,,,2004-02-27,,,ALWAYS,,,,,,,800587,SYSTEM,,,,
+"mfc42_pdb" = 3,vc98\debug\mfc42.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,8392704,SYSTEM,,,,
+
+[VC MFC OS Uni Shr Lib Symbol]
+"mfc42u_map" = 3,vc98\debug\mfc42u.map,,,,2004-02-27,,,ALWAYS,,,,,,,808384,SYSTEM,,,,
+"mfc42u_pdb" = 3,vc98\debug\mfc42u.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,8351744,SYSTEM,,,,
+"mfc42ud_map" = 3,vc98\debug\mfc42ud.map,,,,2004-02-27,,,ALWAYS,,,,,,,836464,SYSTEM,,,,
+"mfc42ud_pdb" = 3,vc98\debug\mfc42ud.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,4280320,SYSTEM,,,,
+"mfcd42ud_pdb" = 3,vc98\debug\mfcd42ud.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,2396160,SYSTEM,,,,
+"mfcn42ud_map" = 3,vc98\debug\mfcn42ud.map,,,,2004-02-27,,,ALWAYS,,,,,,,117518,SYSTEM,,,,
+"mfcn42ud_pdb" = 3,vc98\debug\mfcn42ud.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,1789952,SYSTEM,,,,
+"mfco42ud_map" = 3,vc98\debug\mfco42ud.map,,,,2004-02-27,,,ALWAYS,,,,,,,925265,SYSTEM,,,,
+"mfco42ud_pdb" = 3,vc98\debug\mfco42ud.pdb,,,,2004-02-27,,,ALWAYS,,,,,,,4763648,SYSTEM,,,,
+"mfcd42ud_map" = 4,vc98\debug\mfcd42ud.map,,,,2004-02-27,,,ALWAYS,,,,,,,303610,,,,,
+
+[VC - MFC - Ansi - Debug]
+"mfcn42d_dll" = 4,vc98\debug\mfcn42d.dll,,,,2004-02-27,,1033,OLDER,,,,,,,61493,,,,6.0.9782.0,
+"mfcd42d_dll" = 4,vc98\debug\mfcd42d.dll,,,,2004-02-27,,1033,OLDER,,,,,,,303157,,,,6.0.9782.0,
+"mfco42d_dll" = 4,vc98\debug\mfco42d.dll,,,,2004-02-27,,1033,OLDER,,,,,,,827445,,,,6.0.9782.0,
+
+[VC MFC Ansi Debug Shared]
+"mfc42d_dll" = 4,vc98\debug\mfc42d.dll,,,,2004-02-27,,1033,OLDER,,,,,,,962612,,,,6.0.9782.0,
+
+[VC - MFC - Unicode - Debug]
+"mfc42ud_dll" = 4,vc98\debug\mfc42ud.dll,,,,2004-02-27,,1033,OLDER,,,,,,,974901,,,,6.0.9782.0,
+"mfcd42ud_dll" = 4,vc98\debug\mfcd42ud.dll,,,,2004-02-27,,1033,OLDER,,,,,,,311350,,,,6.0.9782.0,
+"mfcn42ud_dll" = 4,vc98\debug\mfcn42ud.dll,,,,2004-02-27,,1033,OLDER,,,,,,,61494,,,,6.0.9782.0,
+"mfco42ud_dll" = 4,vc98\debug\mfco42ud.dll,,,,2004-02-27,,1033,OLDER,,,,,,,831542,,,,6.0.9782.0,
+
+[VC-MFC-Header1]
+"afx_h" = 4,vc98\mfc\include\afx.h,,,,2003-01-30,,,OLDER,,,,,,,60113,,,,,
+"afx_inl" = 4,vc98\mfc\include\afx.inl,,,,2003-01-30,,,OLDER,,,,,,,19188,,,,,
+"afxadv_h" = 4,vc98\mfc\include\afxadv.h,,,,2003-01-30,,,OLDER,,,,,,,4809,,,,,
+"afxcmn_h" = 4,vc98\mfc\include\afxcmn.h,,,,2000-06-13,,,OLDER,,,,,,,35867,,,,,
+"afxcmn_inl" = 4,vc98\mfc\include\afxcmn.inl,,,,2000-06-13,,,OLDER,,,,,,,52459,,,,,
+"afxcoll_h" = 4,vc98\mfc\include\afxcoll.h,,,,2000-06-13,,,OLDER,,,,,,,34536,,,,,
+"afxcoll_inl" = 4,vc98\mfc\include\afxcoll.inl,,,,2003-01-30,,,OLDER,,,,,,,20749,,,,,
+"afxcom__h" = 4,vc98\mfc\include\afxcom_.h,,,,2003-01-30,,,OLDER,,,,,,,13267,,,,,
+"afxconv_h" = 4,vc98\mfc\include\afxconv.h,,,,2000-06-13,,,OLDER,,,,,,,2245,,,,,
+"afxctl_h" = 4,vc98\mfc\include\afxctl.h,,,,2000-06-13,,,OLDER,,,,,,,67476,,,,,
+"afxctl_inl" = 4,vc98\mfc\include\afxctl.inl,,,,2000-06-13,,,OLDER,,,,,,,5492,,,,,
+"afxctl_rc" = 4,vc98\mfc\include\afxctl.rc,,,,2000-06-13,,,OLDER,,,,,,,10613,,,,,
+"afxcview_h" = 4,vc98\mfc\include\afxcview.h,,,,2000-06-13,,,OLDER,,,,,,,2920,,,,,
+"afxcview_inl" = 4,vc98\mfc\include\afxcview.inl,,,,2000-06-13,,,OLDER,,,,,,,978,,,,,
+"afxdao_h" = 4,vc98\mfc\include\afxdao.h,,,,2000-06-13,,,OLDER,,,,,,,39140,,,,,
+"afxdao_inl" = 4,vc98\mfc\include\afxdao.inl,,,,2000-06-13,,,OLDER,,,,,,,2505,,,,,
+"afxdb_h" = 4,vc98\mfc\include\afxdb.h,,,,2000-06-13,,,OLDER,,,,,,,35092,,,,,
+"afxdb_inl" = 4,vc98\mfc\include\afxdb.inl,,,,2003-01-30,,,OLDER,,,,,,,5078,,,,,
+"afxdb_rc" = 4,vc98\mfc\include\afxdb.rc,,,,2000-06-13,,,OLDER,,,,,,,3940,,,,,
+"afxdb__h" = 4,vc98\mfc\include\afxdb_.h,,,,2000-06-13,,,OLDER,,,,,,,2229,,,,,
+"afxdd__h" = 4,vc98\mfc\include\afxdd_.h,,,,2000-06-13,,,OLDER,,,,,,,4597,,,,,
+
+[VC-MFC-Header2]
+"afxdisp_h" = 4,vc98\mfc\include\afxdisp.h,,,,2000-06-13,,,OLDER,,,,,,,50093,,,,,
+"afxdlgs_h" = 4,vc98\mfc\include\afxdlgs.h,,,,2000-06-13,,,OLDER,,,,,,,23260,,,,,
+"afxdlgs_inl" = 4,vc98\mfc\include\afxdlgs.inl,,,,2000-06-13,,,OLDER,,,,,,,5334,,,,,
+"afxdll__h" = 4,vc98\mfc\include\afxdll_.h,,,,2000-06-13,,,OLDER,,,,,,,3231,,,,,
+"afxdllx_h" = 4,vc98\mfc\include\afxdllx.h,,,,2000-06-13,,,OLDER,,,,,,,2544,,,,,
+"afxdocob_h" = 4,vc98\mfc\include\afxdocob.h,,,,2000-06-13,,,OLDER,,,,,,,10726,,,,,
+"afxext_h" = 4,vc98\mfc\include\afxext.h,,,,2000-06-13,,,OLDER,,,,,,,37344,,,,,
+"afxext_inl" = 4,vc98\mfc\include\afxext.inl,,,,2000-06-13,,,OLDER,,,,,,,5998,,,,,
+"afxinet_h" = 4,vc98\mfc\include\afxinet.h,,,,2000-06-13,,,OLDER,,,,,,,20523,,,,,
+"afxisapi_h" = 4,vc98\mfc\include\afxisapi.h,,,,2004-01-28,,,OLDER,,,,,,,19976,,,,,
+"afxisapi_inl" = 4,vc98\mfc\include\afxisapi.inl,,,,2003-01-30,,,OLDER,,,,,,,4338,,,,,
+"afxisapi_rc" = 4,vc98\mfc\include\afxisapi.rc,,,,2000-06-13,,,OLDER,,,,,,,1989,,,,,
+"afxmsg__h" = 4,vc98\mfc\include\afxmsg_.h,,,,2000-06-13,,,OLDER,,,,,,,34210,,,,,
+"afxmt_h" = 4,vc98\mfc\include\afxmt.h,,,,2000-06-13,,,OLDER,,,,,,,5408,,,,,
+"afxmt_inl" = 4,vc98\mfc\include\afxmt.inl,,,,2000-06-13,,,OLDER,,,,,,,1842,,,,,
+"afxodlgs_h" = 4,vc98\mfc\include\afxodlgs.h,,,,2000-06-13,,,ALWAYS,,,,,,,13934,,,,,
+"afxole_h" = 4,vc98\mfc\include\afxole.h,,,,2000-06-13,,,OLDER,,,,,,,68427,,,,,
+"afxole_inl" = 4,vc98\atl\src\afxole.inl,,,,2000-06-13,,,OLDER,,,,,,,18491,,,,,
+"afxole_rc" = 4,vc98\mfc\include\afxolecl.rc,,,,2000-06-13,,,OLDER,,,,,,,2573,,,,,
+"afxolesv_rc" = 4,vc98\mfc\include\afxolesv.rc,,,,2000-06-13,,,OLDER,,,,,,,1693,,,,,
+"afxplex_h" = 4,vc98\mfc\include\afxplex_.h,,,,2000-06-13,,,OLDER,,,,,,,1299,,,,,
+
+[VC-MFC-Header3]
+"afxprint_rc" = 4,vc98\mfc\include\afxprint.rc,,,,2000-06-13,,,OLDER,,,,,,,3262,,,,,
+"afxpriv_h" = 4,vc98\mfc\include\afxpriv.h,,,,2000-06-13,,,OLDER,,,,,,,25356,,,,,
+"afxpriv2_h" = 4,vc98\mfc\include\afxpriv2.h,,,,2000-06-13,,,OLDER,,,,,,,5776,,,,,
+"afxres_h" = 4,vc98\mfc\include\afxres.h,,,,2003-01-30,,,OLDER,,,,,,,32525,,,,,
+"afxres_rc" = 4,vc98\mfc\include\afxres.rc,,,,2003-01-30,,,OLDER,,,,,,,9684,,,,,
+"afxrich_h" = 4,vc98\mfc\include\afxrich.h,,,,2000-06-13,,,OLDER,,,,,,,12480,,,,,
+"afxrich_inl" = 4,vc98\mfc\include\afxrich.inl,,,,2000-06-13,,,OLDER,,,,,,,2420,,,,,
+"afxsock_h" = 4,vc98\mfc\include\afxsock.h,,,,2000-06-13,,,OLDER,,,,,,,10073,,,,,
+"afxsock_inl" = 4,vc98\mfc\include\afxsock.inl,,,,2000-06-13,,,OLDER,,,,,,,3297,,,,,
+"afxstat__h" = 4,vc98\mfc\include\afxstat_.h,,,,2003-01-30,,,OLDER,,,,,,,10331,,,,,
+"afxtempl_h" = 4,vc98\mfc\include\afxtempl.h,,,,2003-01-30,,,OLDER,,,,,,,48379,,,,,
+"afxtls__h" = 4,vc98\mfc\include\afxtls_.h,,,,2000-06-13,,,OLDER,,,,,,,6816,,,,,
+"afxv_cfg_h" = 4,vc98\mfc\include\afxv_cfg.h,,,,2000-06-13,,,OLDER,,,,,,,693,,,,,
+"afxv_cpu_h" = 4,vc98\mfc\include\afxv_cpu.h,,,,2000-06-13,,,OLDER,,,,,,,1553,,,,,
+"afxv_dll_h" = 4,vc98\mfc\include\afxv_dll.h,,,,2000-06-13,,,OLDER,,,,,,,1643,,,,,
+"afxv_w32_h" = 4,vc98\mfc\include\afxv_w32.h,,,,2000-06-13,,,OLDER,,,,,,,5349,,,,,
+"afxver__h" = 4,vc98\mfc\include\afxver_.h,,,,2000-06-13,,,OLDER,,,,,,,11517,,,,,
+"afxwin_h" = 4,vc98\mfc\include\afxwin.h,,,,2000-06-13,,,OLDER,,,,,,,154220,,,,,
+"afxwin1_inl" = 4,vc98\mfc\include\afxwin1.inl,,,,2000-06-13,,,OLDER,,,,,,,59241,,,,,
+"afxwin2_inl" = 4,vc98\mfc\include\afxwin2.inl,,,,2000-06-13,,,OLDER,,,,,,,58743,,,,,
+"winres_h" = 4,vc98\mfc\include\winres.h,,,,2000-06-13,,,OLDER,,,,,,,1151,,,,,
+
+[VC-MFC-Header4]
+"afxcmn2_inl" = 4,vc98\mfc\include\afxcmn2.inl,,,,2000-06-13,,,OLDER,,,,,,,23978,,,,,
+"afxdtctl_h" = 4,vc98\mfc\include\afxdtctl.h,,,,2000-06-13,,,OLDER,,,,,,,5295,,,,,
+"afxdtctl_inl" = 4,vc98\mfc\include\afxdtctl.inl,,,,2000-06-13,,,OLDER,,,,,,,4297,,,,,
+"afxhtml_h" = 4,vc98\mfc\include\afxhtml.h,,,,2000-06-13,,,OLDER,,,,,,,6611,,,,,
+"afxoledb_h" = 4,vc98\mfc\include\afxoledb.h,,,,2000-06-13,,,OLDER,,,,,,,3182,,,,,
+"afxbld__h" = 4,vc98\mfc\include\afxbld_.h,,,,2004-02-17,,,OLDER,,,,,,,166,,,,,
+
+[VSS - SsexpHlp]
+"ssexp_chm_esp" = 4,ssesexp.chm,,,,2003-02-04,,,OLDER,,,,,,,816426,,,,,
+"ssesexp_chi" = 4,ssesexp.chi,,,,2003-02-04,,,OLDER,,,,,,,50100,,,,,
+"ssexp_chm_enu" = 4,ssusexp.chm,,,,2002-10-04,,,OLDER,,,,,,,701436,,,,,
+"ssusexp_chi" = 4,ssusexp.chi,,,,2002-10-04,,,OLDER,,,,,,,48080,,,,,
+
+[VSS Server NetSetup Root]
+"readmess_htm" = 4,readmess.htm,,,,2003-01-20,,,OLDER,,,,,,,89366,,,,,
+
+[VSS Server NetSetup Setup]
+"vss98net_inf" = 4,VSS\Netsetup\VSS98net.inf,,,,2004-02-27,,,OLDER,,,,,,,5654,,,,,
+"vss98net_stf_1" = 4,VSS\Netsetup\vss98net.stf,,,,2004-02-27,,,OLDER,,,,,,,13408,,,,,
+
+[Netsetup MFC70]
+"netmfc70_dll" = 4,VSS\Win32\mfc70.dll,,,,2002-01-05,,1033,,,,,,,,974848,,,,7.0.9466.0,
+"netmfc70chs_dll" = 4,VSS\Win32\mfc70chs.dll,,,,2002-01-05,,2052,,,,,,,,40960,,,,7.0.9466.0,
+"netmfc70cht_dll" = 4,VSS\Win32\mfc70cht.dll,,,,2002-01-05,,1028,,,,,,,,45056,,,,7.0.9466.0,
+"netmfc70jpn_dll" = 4,VSS\Win32\mfc70jpn.dll,,,,2002-01-05,,1041,,,,,,,,49152,,,,7.0.9466.0,
+"netmfc70kor_dll" = 4,VSS\Win32\mfc70kor.dll,,,,2002-01-05,,1042,,,,,,,,49152,,,,7.0.9466.0,
+"netmfc70deu_dll" = 4,VSS\Win32\mfc70deu.dll,,,,2002-01-05,,1031,,,,,,,,61440,,,,7.0.9466.0,
+"netmfc70esp_dll" = 4,VSS\Win32\mfc70esp.dll,,,,2002-01-05,,3082,,,,,,,,61440,,,,7.0.9466.0,
+"netmfc70fra_dll" = 4,VSS\Win32\mfc70fra.dll,,,,2002-01-05,,1036,,,,,,,,61440,,,,7.0.9466.0,
+"netmfc70ita_dll" = 4,VSS\Win32\mfc70ita.dll,,,,2002-01-05,,1040,,,,,,,,61440,,,,7.0.9466.0,
+
+[NetSetup - CRT Dlls]
+"netmsvcrt_dll" = 4,VSS\Win32\msvcr70.dll,,,,2002-01-05,,1033,,,,,,,,344064,,,,7.0.9466.0,
+
+[VSS Create DB win32]
+"ddconv_exe" = 4,VSS\Win32\ddconv.exe,,,,2003-12-22,,,OLDER,,,,,,,299008,,,,,
+"ddupd_exe" = 4,VSS\Win32\ddupd.exe,,,,2003-12-22,,,OLDER,,,,,,,421888,,,,,
+
+[VSS Client]
+"ss_exe" = 4,VSS\Win32\ss.exe,,,,2003-12-22,,,OLDER,,,,,,,397312,,,,,
+"ssexp_exe" = 4,VSS\Win32\ssexp.exe,,,,2003-12-22,,1033,OLDER,,,,,,,27648,,,,6.0.31222.0,
+
+[VSS - SSUSDLL]
+"ss_dll_enu" = 4,VSS\Win32\ssus.dll,,,,2003-12-22,,1033,OLDER,,,,,,,499712,,,,6.0.31222.0,
+"ss_dll_esp" = 4,VSS\Win32\sses.dll,,,,2003-12-22,,3082,OLDER,,,,,,,544768,,,,6.0.31222.0,
+
+[VSS - IntegrationWin32]
+"ssscc_dll" = 4,VSS\Win32\ssscc.dll,,,,2003-12-22,,1033,OLDER,,,,,,,1560576,,,,6.0.31222.0,
+"ssint_exe" = 4,ssint.exe,,,,2003-12-22,,1033,OLDER,,,,,,,147456,,,,6.0.31222.0,
+
+[VSS Shared C/S]
+"ssapi_dll" = 4,VSS\Win32\ssapi.dll,,,,2003-12-22,,1033,OLDER,,,,,,,569344,SYSTEM,,,6.0.31222.0,
+"ssgui_dll" = 4,VSS\Win32\ssgui.dll,,,,2003-12-22,,1033,OLDER,,,,,,,1220608,SYSTEM,,,6.0.31222.0,
+
+[VSS Admin win32]
+"analyze_exe" = 4,VSS\Win32\analyze.exe,,,,2003-12-22,,1033,OLDER,,,,,,,225280,,,,6.0.31222.0,
+"ssarc_exe" = 4,VSS\Win32\ssarc.exe,,,,2003-12-22,,1033,OLDER,,,,,,,532480,,,,6.0.31222.0,
+"ssrestor_exe" = 4,VSS\Win32\ssrestor.exe,,,,2003-12-22,,1033,OLDER,,,,,,,532480,,,,6.0.31222.0,
+"ssadmin_exe" = 4,VSS\Win32\ssadmin.exe,,,,2003-12-22,,1033,OLDER,,,,,,,19456,,,,6.0.31222.0,
+"mkss_exe" = 4,mkss.exe,,,,2003-09-15,,,OLDER,,,,,,,114688,,,,,
+"testlock_exe" = 4,testlock.exe,,,,2003-12-22,,,OLDER,,,,,,,102400,,,,,
+"unlock_exe" = 4,unlock.exe,,,,2003-12-22,,,OLDER,,,,,,,147456,,,,,
+
+[VSS Sys Files - CRT]
+"msvcr70_dll" = 4,VSS\Win32\msvcr70.dll,,,,2002-01-05,,1033,OLDER,,,,,,,344064,,,,7.0.9466.0,
+
+[VSS Sys Files - MFC]
+"mfc70_dll" = 4,VSS\Win32\mfc70.dll,,,,2002-01-05,,1033,OLDER,,,,,,,974848,SYSTEM,,,7.0.9466.0,
+"mfc70enu_dll" = 4,VSS\Win32\mfc70enu.dll,,,,2002-01-05,,1033,OLDER,,,mfc70loc.dll,!ROOT,,,57344,,,,7.0.9466.0,
+"mfc70chs_dll" = 4,VSS\Win32\mfc70chs.dll,,,,2002-01-05,,2052,OLDER,,,mfc70loc.dll,!ROOT,,,40960,,,,7.0.9466.0,
+"mfc70cht_dll" = 4,VSS\Win32\mfc70cht.dll,,,,2002-01-05,,1028,OLDER,,,mfc70loc.dll,!ROOT,,,45056,,,,7.0.9466.0,
+"mfc70jpn_dll" = 4,VSS\Win32\mfc70jpn.dll,,,,2002-01-05,,1041,OLDER,,,mfc70loc.dll,!ROOT,,,49152,,,,7.0.9466.0,
+"mfc70kor_dll" = 4,VSS\Win32\mfc70kor.dll,,,,2002-01-05,,1042,OLDER,,,mfc70loc.dll,!ROOT,,,49152,,,,7.0.9466.0,
+"mfc70deu_dll" = 4,VSS\Win32\mfc70deu.dll,,,,2002-01-05,,1031,OLDER,,,mfc70loc.dll,!ROOT,,,61440,,,,7.0.9466.0,
+"mfc70esp_dll" = 4,VSS\Win32\mfc70esp.dll,,,,2002-01-05,,3082,OLDER,,,mfc70loc.dll,!ROOT,,,61440,,,,7.0.9466.0,
+"mfc70fra_dll" = 4,VSS\Win32\mfc70fra.dll,,,,2002-01-05,,1036,OLDER,,,mfc70loc.dll,!ROOT,,,61440,,,,7.0.9466.0,
+"mfc70ita_dll" = 4,VSS\Win32\mfc70ita.dll,,,,2002-01-05,,1040,OLDER,,,mfc70loc.dll,!ROOT,,,61440,,,,7.0.9466.0,
+
+[Sys Files - Regtlib]
+"regtlib_exe" = 4,regtlib.exe,,,,2000-07-15,,,OLDER,,,,,,,30720,SYSTEM,,,,
+
+[dag ODBC CAH]
+"odbcstf_dll" = 4,Setup\odbcstf.dll,,,,2000-06-13,,1033,OLDER,,,,,,,40960,SYSTEM,,,3.510.3904.0,
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Thu Mar 11 16:37:25 2004           **
+;**                                                                **
+;*** END ************************************************************

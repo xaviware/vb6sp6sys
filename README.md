@@ -37,5 +37,28 @@ regsvr32 olepro32.dll
 ## Requisitos
 *   Sistema Operativo: Windows 98/2000/XP/7/10/11
 
+## Carpetas Adicionales
+
+Además de las librerías sueltas en la raíz, este repositorio incluye los paquetes de instalación originales:
+
+### `VB6 SP6 Files/`
+Instaladores independientes del runtime de Visual Basic 6.0 SP6:
+
+*   **`vbrun60sp6.exe`**: Instalador redistribuible del runtime de VB6 (SP6).
+*   **`VB6.0-KB290887-X86.exe`**: Actualización de seguridad (KB290887) para el runtime de VB6.
+*   **`VBRun60sp6_exe installs Visual Basic 6_0 SP6 run-time files.mht`**: Página de documentación (guardada como MHT) sobre el instalador del runtime.
+
+### `VS6 SP6/`
+Contenido completo del **Service Pack 6 de Visual Studio 6.0**, que actualiza Visual Basic 6.0, Visual C++ 6.0 y Visual SourceSafe 6.0:
+
+*   **`Vs6sp6.exe`**: Instalador principal del Service Pack 6 para Visual Studio 6.0.
+*   **`setupsp6.exe`** / **`setup.ini`** / **`*.stf`/`*.inf`**: Archivos de configuración y arranque del instalador.
+*   **`*.cab`**: Paquetes comprimidos con los binarios actualizados (runtime de VB6, controles ActiveX como MSComCtl, MSFlexGrid, RichTextBox, Winsock, etc.).
+*   **`*.h`, `*.idl`, `*.lib`**: Cabeceras y librerías de enlace para desarrollo con ADO/OLE DB (usadas por Visual C++ 6.0).
+*   **`readme.htm`** / **`toc.htm`**: Documentación original de Microsoft sobre el contenido y alcance del Service Pack.
+*   **`vcredist.exe`**: Redistribuible de Visual C++.
+
+**Nota:** esta carpeta pesa ~130 MB en total; considera usar Git LFS si el repositorio crece más.
+
 ## Aviso Legal
 Este software es tecnología "Legacy" (antigua) de Microsoft. Se proporciona tal cual para fines de compatibilidad y mantenimiento de sistemas existentes.
